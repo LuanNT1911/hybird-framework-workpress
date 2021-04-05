@@ -176,7 +176,7 @@ public class BasePage {
 		}
 	}
 
-	public String getWebElementText(WebDriver driver, String locator) {
+	public String getElementText(WebDriver driver, String locator) {
 		return getWebElement(driver, locator).getText();
 	}
 
@@ -184,7 +184,7 @@ public class BasePage {
 		return getWebElement(driver, locator).getAttribute(attributeName);
 	}
 
-	public int getWebElementSize(WebDriver driver, String locator) {
+	public int getElementSize(WebDriver driver, String locator) {
 		return getListWebElement(driver, locator).size();
 	}
 
@@ -322,7 +322,7 @@ public class BasePage {
 		return explicitWait.until(jQueryLoad) && explicitWait.until(jsLoad);
 	}
 
-	public String getWebElementValidationMessage(WebDriver driver, String locator) {
+	public String getElementValidationMessage(WebDriver driver, String locator) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		return (String) jsExecutor.executeScript("return arguments[0].validationMessage;",
 				getWebElement(driver, locator));
