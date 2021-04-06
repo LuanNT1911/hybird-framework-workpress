@@ -10,8 +10,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import pageObjects.DashboardPageObject;
-import pageObjects.LoginPageObject;
+import pageObjects.wordpress.DashboardPageObject;
+import pageObjects.wordpress.LoginPageObject;
 
 public class Level_3_Login_Page_Object {
 
