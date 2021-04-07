@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="false" name="WordPress - Admin">
+<suite parallel="Methods" name="WordPress - Admin" thread-cout="3">
+  <parameter name="url" value="https://automationfc.wordpress.com/wp-admin"/>
   <test name="Run on Chrome">
+    <parameter name="browser" value = "chrome"/>
     <classes>
-      <class name="com.nopCommerce.users.Level_3_Login_Page_Object"/>
+      <class name="com.wordpress.posts.Level_4_Login_Multiple_Browsers"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Run on Firefox">
+    <parameter name="browser" value = "firefox"/>
+    <classes>
+      <class name="com.wordpress.posts.Level_4_Login_Multiple_Browsers"/>
+    </classes>
+  </test>
+  <test name="Run on Edge Chromium">
+    <parameter name="browser" value = "edge_chormium"/>
+    <classes>
+      <class name="com.wordpress.posts.Level_4_Login_Multiple_Browsers"/>
+    </classes>
+  </test>
 </suite> <!-- Suite -->
