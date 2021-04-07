@@ -1,5 +1,6 @@
 package commons;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -14,12 +15,16 @@ public class BaseTest {
     private String osName = System.getProperty("os.name");
 
     protected WebDriver getBrowserDriver(String browserName) {
-        setBrowserDriver();
-        if (browserName.equalsIgnoreCase("chrome")) {
+//        setBrowserDriver();
+        Browser browser = Browser.valueOf(browserName.toUpperCase());
+        if (browser == Browser.CHROME) {
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-        } else if (browserName.equalsIgnoreCase("firefox")) {
+        } else if (browser == Browser.FIREFOX) {
+            WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
-        } else if (browserName.equalsIgnoreCase("edge_chormium")) {
+        } else if (browser == Browser.EDGE_CHROMIUM) {
+            WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver();
         } else {
             throw new RuntimeException("Not found the browser name!");
