@@ -1,6 +1,7 @@
 package com.wordpress.posts;
 
 import commons.BaseTest;
+import commons.Browser;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -16,7 +17,8 @@ public class Level_4_Login_Multiple_Browsers extends BaseTest {
     @Parameters("browser")
     @BeforeClass
     public void BeforeClass(String browserName) {
-        driver = getBrowserDriver(browserName);
+        Browser browser = Browser.valueOf(browserName.toUpperCase());
+        driver = getBrowserDriver(browser);
     }
 
     @Parameters("url")
