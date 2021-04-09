@@ -14,24 +14,40 @@ public class BaseTest {
     private String prjLocation = System.getProperty("user.dir");
     private String osName = System.getProperty("os.name");
 
-    protected WebDriver getBrowserDriver(Browser browser) {
+    protected WebDriver getBrowserDriver(String browserName, String url) {
 //        setBrowserDriver();
-//        Browser browser = Browser.valueOf(browserName.toUpperCase());
-        switch (browser) {
-            case CHROME:
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
-                break;
-            case FIREFOX:
-                WebDriverManager.firefoxdriver().setup();
-                driver = new FirefoxDriver();
-                break;
-            case EDGE_CHROMIUM:
-                WebDriverManager.edgedriver().setup();
-                driver = new EdgeDriver();
-                break;
-            default:
-                throw new RuntimeException("Not found the browser name!");
+        Browser browser = Browser.valueOf(browserName.toUpperCase());
+        if (browser == Browser.CHROME) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+        } else if (browser == Browser.FIREFOX) {
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
+        } else if (browser == Browser.EDGE_CHROMIUM) {
+            WebDriverManager.edgedriver().setup();
+            driver = new EdgeDriver();
+        } else {
+            throw new RuntimeException("Not found the browser name!");
+        }
+        driver.get(url);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        return driver;
+    }
+
+    protected WebDriver getBrowserDriver(String browserName) {
+//        setBrowserDriver();
+        Browser browser = Browser.valueOf(browserName.toUpperCase());
+        if (browser == Browser.CHROME) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+        } else if (browser == Browser.FIREFOX) {
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
+        } else if (browser == Browser.EDGE_CHROMIUM) {
+            WebDriverManager.edgedriver().setup();
+            driver = new EdgeDriver();
+        } else {
+            throw new RuntimeException("Not found the browser name!");
         }
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         return driver;
