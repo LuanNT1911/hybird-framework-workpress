@@ -4,7 +4,7 @@
   <test name="Run on Chrome">
     <parameter name="browser" value = "chrome"/>
     <classes>
-      <class name="com.nopCommerce.users.Level_5_Login_Page_Factory"/>
+      <class name="com.nopCommerce.users.Level_6_Login_Page_Generator_Manager"/>
     </classes>
   </test> <!-- Test -->
 <!--  <test name="Run on Firefox">-->

@@ -6,9 +6,11 @@ import pageUIs.nopCommerce.LoginPageUI;
 
 public class LoginPageObject extends BasePage {
 	WebDriver driver;
+//	PageGeneratorManager pageGenerator;
 
 	public LoginPageObject(WebDriver driver) {
 		this.driver = driver;
+//		pageGenerator = PageGeneratorManager.getPageGenerator();
 	}
 
     public void inputToEmailTextbox(String email) {
@@ -21,8 +23,9 @@ public class LoginPageObject extends BasePage {
 		sendkeyToElement(driver,LoginPageUI.PASSWORD_TEXTBOX, password);
 	}
 
-	public void clickToLoginButton() {
+	public HomePageObject clickToLoginButton() {
 		waitForElementClickable(driver, LoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
+		return PageGeneratorManager.getHomePage(driver);
 	}
 }

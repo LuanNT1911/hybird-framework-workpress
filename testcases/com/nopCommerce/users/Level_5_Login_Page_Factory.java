@@ -1,6 +1,7 @@
 package com.nopCommerce.users;
 
 import commons.BaseTest;
+import commons.Browser;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;

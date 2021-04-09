@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 // Class chứa các hàm dùng chung cho package pageObjects
 public class BasePage {
 //	private long shortTimeout = 5;
-	private long longTimeout = 30;
+	private long longTimeout = 10;
 
 	public void openPageUrl(WebDriver driver, String pageUrl) {
 		driver.get(pageUrl);

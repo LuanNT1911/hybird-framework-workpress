@@ -17,8 +17,7 @@ public class Level_4_Login_Multiple_Browsers extends BaseTest {
     @Parameters("browser")
     @BeforeClass
     public void BeforeClass(String browserName) {
-        Browser browser = Browser.valueOf(browserName.toUpperCase());
-        driver = getBrowserDriver(browser);
+        driver = getBrowserDriver(browserName);
     }
 
     @Parameters("url")

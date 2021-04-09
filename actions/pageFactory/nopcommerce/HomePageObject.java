@@ -33,6 +33,11 @@ public class HomePageObject extends BasePage {
         clickToElement(loginLink);
     }
 
+    public void clickToMyAccountLink() {
+        waitForElementClickable(driver, myAccountLink);
+        clickToElement(myAccountLink);
+    }
+
     public boolean isMyAccountLinkDisplayed() {
         waitForElementVisible(driver, myAccountLink);
         return isElementDisplayed(myAccountLink);
