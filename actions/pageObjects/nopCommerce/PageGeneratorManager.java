@@ -23,4 +23,8 @@ public class PageGeneratorManager {
         return new CustomerInforPageObject(driver);
     }
 
+    public static ShoppingCartPageObject getShoppingCartPage(WebDriver driver){
+        return new ShoppingCartPageObject(driver);
+    }
+
 }

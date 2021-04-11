@@ -8,5 +8,5 @@ public class RegisterPageUI {
     public static final String CONFIRM_PASSWORD_TEXTBOX = "//input[@id='ConfirmPassword']";
     public static final String REGISTER_BUTTON = "//button[@id='register-button']";
     public static final String REGISTER_SUCCESS_MSG = "//div[@class='result' and text()='Your registration completed']";
-    public static final String LOGOUT_LINK = "//a[text()='Log out']";
+
 }

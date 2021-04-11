@@ -1,16 +1,16 @@
 package com.nopCommerce.users;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import pageObjects.nopCommerce.HomePageObject;
+import pageObjects.nopCommerce.LoginPageObject;
+import pageObjects.nopCommerce.RegisterPageObject;
 
-import pageObjects.nopCommerce.*;
+import java.util.concurrent.TimeUnit;
 
 public class Level_3_Login_Page_Object {
 
@@ -45,14 +45,14 @@ public class Level_3_Login_Page_Object {
 
 		Assert.assertTrue(registerPage.isSuccessMessageDisplayed());
 
-		registerPage.clickToLogoutLink();
+		registerPage.clickToLogoutLink(driver);
 
 		homePage = new HomePageObject(driver);
 	}
 
 	@Test
 	public void User_02_Login_To_System() {
-		homePage.clickToLoginLink();
+		homePage.clickToLoginLink(driver);
 
 		loginPage = new LoginPageObject(driver);
 		loginPage.sleepInSeconds(2);

@@ -1,20 +1,19 @@
 package commons;
 
-import java.util.List;
-import java.util.Set;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pageObjects.nopCommerce.HomePageObject;
+import pageObjects.nopCommerce.LoginPageObject;
+import pageObjects.nopCommerce.PageGeneratorManager;
+import pageUIs.nopCommerce.BasePageUI;
 
-// Class chứa các hàm dùng chung cho package pageObjects
+import java.util.List;
+import java.util.Set;
+
 public class BasePage {
 //	private long shortTimeout = 5;
 	private long longTimeout = 10;
@@ -178,6 +177,10 @@ public class BasePage {
 
 	public String getElementText(WebDriver driver, String locator) {
 		return getWebElement(driver, locator).getText().trim();
+	}
+
+	public String getElementTextByAttribute(WebDriver driver, String locator){
+		return getWebElement(driver, locator).getAttribute("value").toString().trim();
 	}
 
 	public String getAttribute(WebDriver driver, String locator, String attributeName) {
@@ -370,5 +373,17 @@ public class BasePage {
 			}
 		};
 		explicitWait.until(jQueryLoad);
+	}
+
+	public HomePageObject clickToLogoutLink(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.LOGOUT_LINK);
+		clickToElement(driver, BasePageUI.LOGOUT_LINK);
+		return PageGeneratorManager.getHomePage(driver);
+	}
+
+	public LoginPageObject clickToLoginLink(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.LOGIN_LINK);
+		clickToElement(driver, BasePageUI.LOGIN_LINK);
+		return PageGeneratorManager.getLoginPage(driver);
 	}
 }

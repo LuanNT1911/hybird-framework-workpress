@@ -20,12 +20,6 @@ public class HomePageObject extends BasePage{
 		return PageGeneratorManager.getRegisterPage(driver);
 	}
 
-	public LoginPageObject clickToLoginLink() {
-		waitForElementClickable(driver, HomePageUI.LOGIN_LINK);
-		clickToElement(driver, HomePageUI.LOGIN_LINK);
-		return PageGeneratorManager.getLoginPage(driver);
-	}
-
 	public boolean isMyAccountLinkDisplayed() {
 		waitForElementVisible(driver, HomePageUI.MY_ACOUNT_LINK);
 		return isElementDisplayed(driver, HomePageUI.MY_ACOUNT_LINK);
