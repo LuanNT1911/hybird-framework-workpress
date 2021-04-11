@@ -33,7 +33,8 @@ public class Level_6_Login_Page_Generator_Manager extends BaseTest {
 
     @Test
     public void User_01_Register_To_System() {
-        registerPage = homePage.clickToResgisterLink();
+        registerPage = (RegisterPageObject) homePage.openDynamicPage(
+                driver, "header", "Register");
         registerPage.sleepInSeconds(1);
         registerPage.inputToFirstNameTextbox(firstName);
         registerPage.inputToLastNameTextbox(lastName);
@@ -44,13 +45,15 @@ public class Level_6_Login_Page_Generator_Manager extends BaseTest {
 
         Assert.assertTrue(registerPage.isSuccessMessageDisplayed());
 
-        homePage = registerPage.clickToLogoutLink(driver);
+        homePage = (HomePageObject) registerPage.openDynamicPage(
+                driver, "header", "Log out");
     }
 
     @Test
     public void User_02_Login_To_System() {
 //        homePage.clickToResgisterLink();
-        loginPage = homePage.clickToLoginLink(driver);
+        loginPage = (LoginPageObject) homePage.openDynamicPage(
+                driver, "header","Log in");
         loginPage.sleepInSeconds(1);
 //        loginPage.isBeingLoginPage();
         loginPage.inputToEmailTextbox(email);
@@ -62,7 +65,8 @@ public class Level_6_Login_Page_Generator_Manager extends BaseTest {
 
     @Test
     public void User_03_Customer_Info() {
-        customerInforPage = homePage.clickToMyAccountLink();
+        customerInforPage = (CustomerInforPageObject) homePage.openDynamicPage(
+                driver, "header","My account");
         Assert.assertEquals(customerInforPage.getFirstNameTextboxValue(), firstName);
         Assert.assertEquals(customerInforPage.getLastNameTextboxValue(), lastName);
         Assert.assertEquals(customerInforPage.getEmailTextboxValue(), email);

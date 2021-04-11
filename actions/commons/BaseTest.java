@@ -6,13 +6,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     private WebDriver driver;
-    private String prjLocation = System.getProperty("user.dir");
-    private String osName = System.getProperty("os.name");
+    private String prjLocation = GlobalConstants.PROJECT_LOCATION;
+    private String osName = GlobalConstants.OS_NAME;
 
     protected WebDriver getBrowserDriver(String browserName, String url) {
 //        setBrowserDriver();
