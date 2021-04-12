@@ -119,11 +119,23 @@ public class BasePage {
         getWebElement(driver, locator).click();
     }
 
+    public void clickToElement(WebDriver driver, String dynamicLocator, String... param) {
+        String locator = String.format(dynamicLocator, (Object[]) param);
+        getWebElement(driver, locator).click();
+    }
+
     public void clickToElement(WebElement element) {
         element.click();
     }
 
     public void sendkeyToElement(WebDriver driver, String locator, String value) {
+        WebElement element = getWebElement(driver, locator);
+        element.clear();
+        element.sendKeys(value);
+    }
+
+    public void sendkeyToElement(WebDriver driver, String dynamicLocator, String value, String... param) {
+        String locator = String.format(dynamicLocator, (Object[]) param);
         WebElement element = getWebElement(driver, locator);
         element.clear();
         element.sendKeys(value);
@@ -343,6 +355,12 @@ public class BasePage {
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByXpath(locator)));
     }
 
+    public void waitForElementVisible(WebDriver driver, String dynamicLocator, String... param) {
+        String locator = String.format(dynamicLocator, (Object[]) param);
+        WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+        explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByXpath(locator)));
+    }
+
     public void waitForListElementVisible(WebDriver driver, String locator) {
         WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
         explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByXpath(locator)));
@@ -354,6 +372,12 @@ public class BasePage {
     }
 
     public void waitForElementClickable(WebDriver driver, String locator) {
+        WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+        explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
+    }
+
+    public void waitForElementClickable(WebDriver driver, String dynamicLocator, String... param) {
+        String locator = String.format(dynamicLocator, (Object[]) param);
         WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
         explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
     }
@@ -388,15 +412,13 @@ public class BasePage {
     }
 
     public void openDynamicMorePage(WebDriver driver, String location, String pageName) {
-        String dynamicLocator = getDynamicLocator(BasePageUI.PAGE_LINK, location, pageName);
-        waitForElementClickable(driver, dynamicLocator);
-        clickToElement(driver, dynamicLocator);
+        waitForElementClickable(driver, BasePageUI.PAGE_LINK, location, pageName);
+        clickToElement(driver, BasePageUI.PAGE_LINK, location, pageName);
     }
 
     public BasePage openDynamicPage(WebDriver driver, String location, String pageName) {
-        String dynamicLocator = getDynamicLocator(BasePageUI.PAGE_LINK, location, pageName);
-        waitForElementClickable(driver, dynamicLocator);
-        clickToElement(driver, dynamicLocator);
+        waitForElementClickable(driver, BasePageUI.PAGE_LINK, location, pageName);
+        clickToElement(driver, BasePageUI.PAGE_LINK, location, pageName);
         switch (pageName) {
             case "Log in":
                 return PageGeneratorManager.getLoginPage(driver);
