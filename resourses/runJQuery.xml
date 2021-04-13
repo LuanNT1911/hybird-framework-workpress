@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="fail" name="NopCommerce" thread-cout="3">
+  <parameter name="url" value="http://blueimp.github.io/jQuery-File-Upload/"/>
+  <test name="Run on Chrome">
+    <parameter name="browser" value = "chrome"/>
+    <classes>
+      <class name="com.jQuery.upload.Level_10_Upload_File"/>
+    </classes>
+  </test> <!-- Test -->
+<!--  <test name="Run on Firefox">-->
+<!--    <parameter name="browser" value = "firefox"/>-->
+<!--    <classes>-->
+<!--      <class name="com.wordpress.posts.Level_4_Login_Multiple_Browsers"/>-->
+<!--    </classes>-->
+<!--  </test>-->
+<!--  <test name="Run on Edge Chromium">-->
+<!--    <parameter name="browser" value = "edge_chromium"/>-->
+<!--    <classes>-->
+<!--      <class name="com.wordpress.posts.Level_4_Login_Multiple_Browsers"/>-->
+<!--    </classes>-->
+<!--  </test>-->
+</suite> <!-- Suite -->

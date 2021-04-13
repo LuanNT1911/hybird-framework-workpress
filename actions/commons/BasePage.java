@@ -220,6 +220,11 @@ public class BasePage {
         return getWebElement(driver, locator).isDisplayed();
     }
 
+    public boolean isElementDisplayed(WebDriver driver, String dynamicLocator, String...param) {
+        String locator = String.format(dynamicLocator, (Object[]) param);
+        return getWebElement(driver, locator).isDisplayed();
+    }
+
     public boolean isElementSelected(WebDriver driver, String locator) {
         return getWebElement(driver, locator).isSelected();
     }
@@ -431,5 +436,23 @@ public class BasePage {
             default:
                 return PageGeneratorManager.getHomePage(driver);
         }
+    }
+
+    public String getDirectorySlash(String folderName) {
+        String separator = System.getProperty("file.separator");
+        return separator + folderName + separator;
+    }
+
+    public void uploadMultipleFiles(WebDriver driver, String locator, String... fileNames) {
+        String filePath = System.getProperty("user.dir") + getDirectorySlash("uploadFiles");
+        String fullFileName = "";
+
+        for (String file : fileNames) {
+            fullFileName = fullFileName + filePath + file + "\n";
+        }
+
+        fullFileName = fullFileName.trim();
+
+        getWebElement(driver, locator).sendKeys(fullFileName);
     }
 }
