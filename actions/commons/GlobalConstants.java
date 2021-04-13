@@ -1,7 +1,5 @@
 package commons;
 
-// Sử dụng cho toàn bộ framework
-// Constants: Hằng số (biến) - Url/ User/ Pass/ Path (download/upload/logs...)
 public class GlobalConstants {
     public static final String PROJECT_LOCATION = System.getProperty("user.dir");
     public static final String OS_NAME = System.getProperty("os.name");
