@@ -4,19 +4,19 @@
   <test name="Run on Chrome">
     <parameter name="browser" value = "chrome"/>
     <classes>
-      <class name="com.wordpress.posts.Level_4_Login_Multiple_Browsers"/>
+      <class name="com.wordpress.posts.Level_11_Login_Undisplayed"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Run on Firefox">
-    <parameter name="browser" value = "firefox"/>
-    <classes>
-      <class name="com.wordpress.posts.Level_4_Login_Multiple_Browsers"/>
-    </classes>
-  </test>
-  <test name="Run on Edge Chromium">
-    <parameter name="browser" value = "edge_chormium"/>
-    <classes>
-      <class name="com.wordpress.posts.Level_4_Login_Multiple_Browsers"/>
-    </classes>
-  </test>
+<!--  <test name="Run on Firefox">-->
+<!--    <parameter name="browser" value = "firefox"/>-->
+<!--    <classes>-->
+<!--      <class name="com.wordpress.posts.Level_11_Login_Undisplayed"/>-->
+<!--    </classes>-->
+<!--  </test>-->
+<!--  <test name="Run on Edge Chromium">-->
+<!--    <parameter name="browser" value = "edge_chormium"/>-->
+<!--    <classes>-->
+<!--      <class name="com.wordpress.posts.Level_11_Login_Undisplayed"/>-->
+<!--    </classes>-->
+<!--  </test>-->
 </suite> <!-- Suite -->

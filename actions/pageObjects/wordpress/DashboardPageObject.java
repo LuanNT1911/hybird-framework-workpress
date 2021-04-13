@@ -14,8 +14,12 @@ public class DashboardPageObject extends BasePage {
 	}
 
 	public boolean isDashboardHeaderTextDisplayed() {
-		// TODO Auto-generated method stub
 		return isElementDisplayed(driver, DashboardPageUI.DASHBOARD_HEADER_TEXT);
+	}
+
+	public void clickToScreenOptionButton(){
+		waitForElementClickable(driver, DashboardPageUI.SCREEN_OPTION_BUTTON);
+		clickToElement(driver, DashboardPageUI.SCREEN_OPTION_BUTTON);
 	}
 
 }
