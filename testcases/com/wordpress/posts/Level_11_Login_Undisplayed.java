@@ -29,7 +29,7 @@ public class Level_11_Login_Undisplayed extends BaseTest {
         loginPage.clickToLoginButton();
 
         dashboardPage = PageGeneratorManager.getDashboardPage(driver);
-        Assert.assertTrue(dashboardPage.isDashboardHeaderTextDisplayed());
+        verifyTrue(dashboardPage.isDashboardHeaderTextDisplayed());
     }
 
     @AfterClass

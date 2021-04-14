@@ -31,11 +31,11 @@ public class Level_10_Upload_File extends BaseTest {
 
         homePage.uploadFiles(fileNames);
 
-        Assert.assertTrue(homePage.areFilenameLoadedSuccess(fileNames));
+        verifyTrue(homePage.areFilenameLoadedSuccess(fileNames));
 
         homePage.clickToStartUploadButton();
 
-        Assert.assertTrue(homePage.areFileUploadedSuccess(fileNames));
+        verifyTrue(homePage.areFileUploadedSuccess(fileNames));
     }
 
     @Test
@@ -46,11 +46,11 @@ public class Level_10_Upload_File extends BaseTest {
 
         homePage.uploadFiles(fileNames);
 
-        Assert.assertTrue(homePage.areFilenameLoadedSuccess(fileNames));
+        verifyTrue(homePage.areFilenameLoadedSuccess(fileNames));
 
         homePage.clickToStartUploadButton();
 
-        Assert.assertTrue(homePage.areFileUploadedSuccess(fileNames));
+        verifyTrue(homePage.areFileUploadedSuccess(fileNames));
     }
 
     @AfterClass
