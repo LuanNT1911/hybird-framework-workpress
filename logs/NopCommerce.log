@@ -1,0 +1,213 @@
+[INFO ] [2021-04-15 22:05:39,780] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:05:41,349] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:05:42,490] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:05:42,593] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:05:42,710] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:05:42,812] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:05:42,916] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:05:44,429] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:05:44,520]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:05:44,526] Register - Step 09: Click to Log Out link
+[INFO ] [2021-04-15 22:05:46,933] Login - Step 01: Click to Log in link
+[INFO ] [2021-04-15 22:05:48,237] Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:05:49,347] Login - Step 02: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:05:49,456] Login - Step 03: Click to Log in button
+[INFO ] [2021-04-15 22:05:51,829] Login - Step 04: Verify My account link is displayed
+[INFO ] [2021-04-15 22:05:51,933]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:05:51,935] Customer - Step 01: Click to My account link
+[INFO ] [2021-04-15 22:05:52,876] Customer - Step 02: Verify Fist Name textbox is: Earn
+[INFO ] [2021-04-15 22:05:52,970]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:05:52,970] Customer - Step 03: Verify Last Name textbox is:Shawn
+[INFO ] [2021-04-15 22:05:53,030]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:05:53,030] Customer - Step 04: Verify Email textbox is:earnshaw@gmail.com
+[INFO ] [2021-04-15 22:05:53,112]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:12:17,156] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:12:18,631] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:12:19,766] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:12:19,864] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:12:19,994] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:12:20,085] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:12:20,203] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:12:22,387] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:12:22,489]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:12:22,492] Register - Step 09: Click to Log Out link
+[INFO ] [2021-04-15 22:12:23,977] Login - Step 01: Click to Log in link
+[INFO ] [2021-04-15 22:12:25,144] Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:12:26,272] Login - Step 02: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:12:26,366] Login - Step 03: Click to Log in button
+[INFO ] [2021-04-15 22:12:27,823] Login - Step 04: Verify My account link is displayed
+[INFO ] [2021-04-15 22:12:27,932]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:12:27,935] Customer - Step 01: Click to My account link
+[INFO ] [2021-04-15 22:12:28,450] Customer - Step 02: Verify Fist Name textbox is: Earn
+[INFO ] [2021-04-15 22:12:28,549]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:12:28,550] Customer - Step 03: Verify Last Name textbox is:Shawn
+[INFO ] [2021-04-15 22:12:28,626]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:12:28,626] Customer - Step 04: Verify Email textbox is:earnshaw@gmail.com
+[INFO ] [2021-04-15 22:12:28,710]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:14:26,812] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:14:28,491] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:14:29,680] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:14:29,807] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:14:29,948] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:14:30,071] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:14:30,207] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:14:31,580] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:15:02,188] Login - Step 01: Click to Log in link
+[INFO ] [2021-04-15 22:15:02,812] Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:15:03,908] Login - Step 02: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:15:04,013] Login - Step 03: Click to Log in button
+[INFO ] [2021-04-15 22:15:04,839] Login - Step 04: Verify My account link is displayed
+[INFO ] [2021-04-15 22:15:04,929]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:15:04,932] Customer - Step 01: Click to My account link
+[INFO ] [2021-04-15 22:15:05,432] Customer - Step 02: Verify Fist Name textbox is: Earn
+[INFO ] [2021-04-15 22:15:05,499]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:15:05,499] Customer - Step 03: Verify Last Name textbox is:Shawn
+[INFO ] [2021-04-15 22:15:05,563]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:15:05,563] Customer - Step 04: Verify Email textbox is:earnshaw@gmail.com
+[INFO ] [2021-04-15 22:15:05,627]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:20:50,346] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:20:51,931] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:20:53,069] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:20:53,164] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:20:53,274] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:20:53,382] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:20:53,506] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:20:54,025] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:21:24,599] Login - Step 01: Click to Log in link
+[INFO ] [2021-04-15 22:21:25,947] Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:21:27,068] Login - Step 02: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:21:27,171] Login - Step 03: Click to Log in button
+[INFO ] [2021-04-15 22:21:28,729] Login - Step 04: Verify My account link is displayed
+[INFO ] [2021-04-15 22:21:28,841]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:21:28,843] Customer - Step 01: Click to My account link
+[INFO ] [2021-04-15 22:21:29,354] Customer - Step 02: Verify Fist Name textbox is: Earn
+[INFO ] [2021-04-15 22:21:29,471]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:21:29,471] Customer - Step 03: Verify Last Name textbox is:Shawn
+[INFO ] [2021-04-15 22:21:29,535]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:21:29,536] Customer - Step 04: Verify Email textbox is:earnshaw@gmail.com
+[INFO ] [2021-04-15 22:21:29,613]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:22:18,862] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:22:20,434] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:22:21,568] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:22:21,667] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:22:21,803] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:22:21,909] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:22:22,029] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:22:23,354] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:22:53,949] Login - Step 01: Click to Log in link
+[INFO ] [2021-04-15 22:22:55,072] Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:22:56,178] Login - Step 02: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:22:56,285] Login - Step 03: Click to Log in button
+[INFO ] [2021-04-15 22:22:58,634] Login - Step 04: Verify My account link is displayed
+[INFO ] [2021-04-15 22:22:58,769]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:23:17,136] Customer - Step 01: Click to My account link
+[INFO ] [2021-04-15 22:24:05,877] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:24:07,490] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:24:08,627] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:24:08,736] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:24:08,839] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:24:08,935] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:24:09,030] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:24:10,394] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:26:13,946] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:26:15,543] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:26:16,673] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:26:16,769] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:26:16,878] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:26:16,965] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:26:17,058] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:26:18,377] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:26:48,966] Login - Step 01: Click to Log in link
+[INFO ] [2021-04-15 22:26:50,164] Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:26:51,277] Login - Step 02: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:26:51,367] Login - Step 03: Click to Log in button
+[INFO ] [2021-04-15 22:26:52,235] Login - Step 04: Verify My account link is displayed
+[INFO ] [2021-04-15 22:26:52,324]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:27:02,119] Customer - Step 01: Click to My account link
+[INFO ] [2021-04-15 22:28:46,072] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:28:47,539] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:28:48,656] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:28:48,748] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:28:48,844] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:28:48,943] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:28:49,040] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:28:50,342] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:29:20,912] Login - Step 01: Click to Log in link
+[INFO ] [2021-04-15 22:29:21,467] Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:29:22,581] Login - Step 02: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:29:22,670] Login - Step 03: Click to Log in button
+[INFO ] [2021-04-15 22:29:24,988] Login - Step 04: Verify My account link is displayed
+[INFO ] [2021-04-15 22:29:25,109]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:29:25,114] Customer - Step 01: Click to My account link
+[INFO ] [2021-04-15 22:29:26,425] Customer - Step 02: Verify Fist Name textbox is: Earn
+[INFO ] [2021-04-15 22:29:26,517]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:29:26,517] Customer - Step 03: Verify Last Name textbox is:Shawn
+[INFO ] [2021-04-15 22:29:26,577]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:29:26,577] Customer - Step 04: Verify Email textbox is:earnshaw@gmail.com
+[INFO ] [2021-04-15 22:29:26,640]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:30:09,803] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:30:11,488] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:30:12,655] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:30:12,763] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:30:12,890] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:30:12,988] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:30:13,102] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:30:14,386] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:30:29,430] Login - Step 01: Click to Log in link
+[INFO ] [2021-04-15 22:30:30,567] Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:30:31,669] Login - Step 02: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:30:31,780] Login - Step 03: Click to Log in button
+[INFO ] [2021-04-15 22:30:34,069] Login - Step 04: Verify My account link is displayed
+[INFO ] [2021-04-15 22:30:34,160]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:30:37,311] Customer - Step 01: Click to My account link
+[INFO ] [2021-04-15 22:35:10,636] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:35:12,112] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:35:13,241] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:35:13,338] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:35:13,436] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:35:13,535] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:35:13,642] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:35:14,959] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:35:20,028]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-04-15 22:35:20,031] Register - Step 09: Click to Log Out link
+[INFO ] [2021-04-15 22:35:35,073] Login - Step 01: Click to Log in link
+[INFO ] [2021-04-15 22:35:36,260] Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:35:37,362] Login - Step 02: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:35:37,453] Login - Step 03: Click to Log in button
+[INFO ] [2021-04-15 22:35:39,153] Login - Step 04: Verify My account link is displayed
+[INFO ] [2021-04-15 22:35:39,308]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:35:39,311] Customer - Step 01: Click to My account link
+[INFO ] [2021-04-15 22:35:40,143] Customer - Step 02: Verify Fist Name textbox is: Earn
+[INFO ] [2021-04-15 22:35:40,295]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:35:40,295] Customer - Step 03: Verify Last Name textbox is:Shawn
+[INFO ] [2021-04-15 22:35:40,372]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:35:40,373] Customer - Step 04: Verify Email textbox is:earnshaw@gmail.com
+[INFO ] [2021-04-15 22:35:40,451]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:37:54,686] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:37:55,537] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:37:55,787] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:37:56,016] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:37:56,204] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:37:56,394] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:37:56,585] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:37:56,740] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:38:01,825]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-04-15 22:38:01,828] Register - Step 09: Click to Log Out link
+[INFO ] [2021-04-15 22:39:16,246] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:39:17,894] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:40:01,991] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:40:03,795] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:40:38,649] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:40:40,183] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:40:40,437] Register - Step 03: Input to Last Name textbox: Shawn
+[INFO ] [2021-04-15 22:40:40,695] Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[INFO ] [2021-04-15 22:40:40,876] Register - Step 05: Input to Password textbox: 123456
+[INFO ] [2021-04-15 22:40:41,068] Register - Step 06: Input to Confirm Password textbox: 123456
+[INFO ] [2021-04-15 22:40:41,244] Register - Step 07: Click to Register button
+[INFO ] [2021-04-15 22:40:41,384] Register - Step 08: Verify success message is displayed
+[INFO ] [2021-04-15 22:41:12,475] Register - Step 01: Opening Register page
+[INFO ] [2021-04-15 22:41:14,047] Register - Step 02: Input to First Name textbox: Earn
+[INFO ] [2021-04-15 22:48:49,654]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-04-15 22:48:51,967]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:48:54,079]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-15 22:49:00,447]  -------------------------- PASSED -------------------------- 

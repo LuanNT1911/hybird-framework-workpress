@@ -2,14 +2,12 @@ package com.jQuery.upload;
 
 import commons.BaseTest;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pageObjects.jQuery.HomePageObject;
 import pageObjects.jQuery.PageGeneratorManager;
-import pageUIs.jQuery.HomePageUI;
 
 public class Level_10_Upload_File extends BaseTest {
 
@@ -28,10 +26,11 @@ public class Level_10_Upload_File extends BaseTest {
     @Test
     public void Upload_01_One_File_Per_Time() {
         String[] fileNames = {"whale.jpg"};
+        String[] file = {"whale11.jpg"};
 
         homePage.uploadFiles(fileNames);
 
-        verifyTrue(homePage.areFilenameLoadedSuccess(fileNames));
+        verifyTrue(homePage.areFilenameLoadedSuccess(file));
 
         homePage.clickToStartUploadButton();
 

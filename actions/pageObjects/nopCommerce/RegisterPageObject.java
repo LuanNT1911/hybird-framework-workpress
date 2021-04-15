@@ -15,7 +15,8 @@ public class RegisterPageObject extends BasePage {
 
     public void inputToFirstNameTextbox(String firstName) {
     	waitForPageLoadingCompleted(driver);
-		waitForElementVisible(driver, RegisterPageUI.FIRST_NAME_TEXTBOX);
+//		waitForElementVisible(driver, RegisterPageUI.FIRST_NAME_TEXTBOX);
+		isElementUndisplayed(driver,RegisterPageUI.FIRST_NAME_TEXTBOX);
 		sendkeyToElement(driver,RegisterPageUI.FIRST_NAME_TEXTBOX, firstName);
     }
 
@@ -45,8 +46,8 @@ public class RegisterPageObject extends BasePage {
 	}
 
 	public boolean isSuccessMessageDisplayed() {
-		waitForElementVisible(driver, RegisterPageUI.REGISTER_SUCCESS_MSG);
-		return isElementDisplayed(driver, RegisterPageUI.REGISTER_SUCCESS_MSG);
+//		waitForElementVisible(driver, RegisterPageUI.REGISTER_SUCCESS_MSG);
+		return !isElementUndisplayed(driver, RegisterPageUI.REGISTER_SUCCESS_MSG);
 	}
 
 }

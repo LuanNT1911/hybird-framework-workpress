@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="fail" name="NopCommerce" thread-cout="3">
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
   <parameter name="url" value="https://demo.nopcommerce.com/"/>
   <test name="Run on Chrome">
-    <parameter name="browser" value = "firefox"/>
+    <parameter name="browser" value = "chrome"/>
     <classes>
       <class name="com.nopCommerce.users.Level_6_Login_Page_Generator_Manager"/>
     </classes>

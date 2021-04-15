@@ -1,6 +1,8 @@
 package commons;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -14,6 +16,12 @@ public class BaseTest {
     private WebDriver driver;
     private String prjLocation = GlobalConstants.PROJECT_LOCATION;
     private String osName = GlobalConstants.OS_NAME;
+
+    protected final Log log;
+
+    protected BaseTest(){
+        log = LogFactory.getLog(getClass());
+    }
 
     protected WebDriver getBrowserDriver(String browserName, String url) {
 //        setBrowserDriver();
@@ -101,11 +109,11 @@ public class BaseTest {
     protected boolean verifyTrue(boolean condition) {
         boolean pass = true;
         try {
-//            if (condition == true) {
-//                log.info(" -------------------------- PASSED -------------------------- ");
-//            } else {
-//                log.info(" -------------------------- FAILED -------------------------- ");
-//            }
+            if (condition) {
+                log.info(" -------------------------- PASSED -------------------------- ");
+            } else {
+                log.info(" -------------------------- FAILED -------------------------- ");
+            }
             Assert.assertTrue(condition);
         } catch (Throwable e) {
             pass = false;
@@ -119,11 +127,11 @@ public class BaseTest {
     protected boolean verifyFalse(boolean condition) {
         boolean pass = true;
         try {
-//            if (condition == false) {
-//                log.info(" -------------------------- PASSED -------------------------- ");
-//            } else {
-//                log.info(" -------------------------- FAILED -------------------------- ");
-//            }
+            if (condition == false) {
+                log.info(" -------------------------- PASSED -------------------------- ");
+            } else {
+                log.info(" -------------------------- FAILED -------------------------- ");
+            }
             Assert.assertFalse(condition);
         } catch (Throwable e) {
             pass = false;
@@ -137,10 +145,10 @@ public class BaseTest {
         boolean pass = true;
         try {
             Assert.assertEquals(actual, expected);
-//            log.info(" -------------------------- PASSED -------------------------- ");
+            log.info(" -------------------------- PASSED -------------------------- ");
         } catch (Throwable e) {
             pass = false;
-//            log.info(" -------------------------- FAILED -------------------------- ");
+            log.info(" -------------------------- FAILED -------------------------- ");
             VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
             Reporter.getCurrentTestResult().setThrowable(e);
         }
