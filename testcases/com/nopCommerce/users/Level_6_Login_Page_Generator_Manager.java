@@ -1,6 +1,10 @@
 package com.nopCommerce.users;
 
 import commons.BaseTest;
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -8,6 +12,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pageObjects.nopCommerce.*;
 
+@Feature("User")
 public class Level_6_Login_Page_Generator_Manager extends BaseTest {
 
     WebDriver driver;
@@ -30,6 +35,8 @@ public class Level_6_Login_Page_Generator_Manager extends BaseTest {
 
     }
 
+    @Description("TC01: Register to System")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     public void User_01_Register_To_System() {
         log.info("Register - Step 01: Opening Register page");
@@ -63,6 +70,8 @@ public class Level_6_Login_Page_Generator_Manager extends BaseTest {
                 driver, "header", "Log out");
     }
 
+    @Description("TC02: Login to System")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     public void User_02_Login_To_System() {
 //        homePage.clickToResgisterLink();
@@ -85,6 +94,8 @@ public class Level_6_Login_Page_Generator_Manager extends BaseTest {
         verifyTrue(homePage.isMyAccountLinkDisplayed());
     }
 
+    @Description("TC03: Check Customer Info")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     public void User_03_Customer_Info() {
         log.info("Customer - Step 01: Click to My account link");

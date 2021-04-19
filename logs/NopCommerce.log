@@ -211,3 +211,209 @@
 [INFO ] [2021-04-15 22:48:51,967]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-04-15 22:48:54,079]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-04-15 22:49:00,447]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 10:11:19,091]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-04-16 10:11:21,239]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 10:11:22,425]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 10:11:28,716]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 10:14:41,028] Upload a file- Step 01: Upload a file to UI
+[INFO ] [2021-04-16 10:14:41,102] Upload a file: Step 02: Verify file is loaded to UI
+[INFO ] [2021-04-16 10:14:56,169]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-04-16 10:14:56,171] Upload a file: Step 03: Click Start Upload button
+[INFO ] [2021-04-16 10:14:58,230] Upload a file: Step 04: Verify file is uploaded to server
+[INFO ] [2021-04-16 10:14:58,290]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 10:14:58,295] Upload multiple files- Step 00: Refresh the page
+[INFO ] [2021-04-16 10:14:59,816] Upload multiple files- Step 01: Upload multiple files to UI
+[INFO ] [2021-04-16 10:14:59,877] Upload multiple files: Step 02: Verify files are loaded to UI
+[INFO ] [2021-04-16 10:15:00,031]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 10:15:00,031] Upload multiple files: Step 03: Click Start Upload button
+[INFO ] [2021-04-16 10:15:06,197] Upload multiple files: Step 04: Verify files are uploaded to server
+[INFO ] [2021-04-16 10:15:06,324]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 10:58:25,558] Upload a file- Step 01: Upload a file to UI
+[INFO ] [2021-04-16 10:58:25,639] Upload a file: Step 02: Verify file is loaded to UI
+[INFO ] [2021-04-16 10:58:40,718] Upload multiple files- Step 00: Refresh the page
+[INFO ] [2021-04-16 10:58:41,245] Upload multiple files- Step 01: Upload multiple files to UI
+[INFO ] [2021-04-16 10:58:41,328] Upload multiple files: Step 02: Verify files are loaded to UI
+[INFO ] [2021-04-16 10:58:41,462]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 10:58:41,462] Upload multiple files: Step 03: Click Start Upload button
+[INFO ] [2021-04-16 10:58:47,613] Upload multiple files: Step 04: Verify files are uploaded to server
+[INFO ] [2021-04-16 10:58:47,714]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 10:59:53,571] Upload a file- Step 01: Upload a file to UI
+[INFO ] [2021-04-16 10:59:53,667] Upload a file: Step 02: Verify file is loaded to UI
+[INFO ] [2021-04-16 11:00:08,737]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-04-16 11:00:08,739] Upload a file: Step 03: Click Start Upload button
+[INFO ] [2021-04-16 11:00:10,797] Upload a file: Step 04: Verify file is uploaded to server
+[INFO ] [2021-04-16 11:00:10,855]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-04-16 11:00:10,861] Upload multiple files- Step 00: Refresh the page
+[INFO ] [2021-04-16 11:00:12,607] Upload multiple files- Step 01: Upload multiple files to UI
+[INFO ] [2021-04-16 11:00:12,662] Upload multiple files: Step 02: Verify files are loaded to UI
+[INFO ] [2021-04-16 11:00:12,767]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 11:00:12,768] Upload multiple files: Step 03: Click Start Upload button
+[INFO ] [2021-04-16 11:00:18,983] Upload multiple files: Step 04: Verify files are uploaded to server
+[INFO ] [2021-04-16 11:00:19,098]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 11:07:57,322] Upload a file- Step 01: Upload a file to UI
+[INFO ] [2021-04-16 11:07:57,438] Upload a file: Step 02: Verify file is loaded to UI
+[INFO ] [2021-04-16 11:08:12,508]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-04-16 11:08:12,510] Upload a file: Step 03: Click Start Upload button
+[INFO ] [2021-04-16 11:08:14,596] Upload a file: Step 04: Verify file is uploaded to server
+[INFO ] [2021-04-16 11:08:14,669]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 11:08:14,674] Upload multiple files- Step 00: Refresh the page
+[INFO ] [2021-04-16 11:08:15,678] Upload multiple files- Step 01: Upload multiple files to UI
+[INFO ] [2021-04-16 11:08:15,722] Upload multiple files: Step 02: Verify files are loaded to UI
+[INFO ] [2021-04-16 11:08:15,848]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 11:08:15,848] Upload multiple files: Step 03: Click Start Upload button
+[INFO ] [2021-04-16 11:08:22,019] Upload multiple files: Step 04: Verify files are uploaded to server
+[INFO ] [2021-04-16 11:08:22,141]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 11:10:42,590] Upload a file- Step 01: Upload a file to UI
+[INFO ] [2021-04-16 11:10:42,668] Upload a file: Step 02: Verify file is loaded to UI
+[INFO ] [2021-04-16 11:10:57,745]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-04-16 11:10:57,746] Upload a file: Step 03: Click Start Upload button
+[INFO ] [2021-04-16 11:10:59,797] Upload a file: Step 04: Verify file is uploaded to server
+[INFO ] [2021-04-16 11:10:59,856]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 11:10:59,860] Upload multiple files- Step 00: Refresh the page
+[INFO ] [2021-04-16 11:11:00,811] Upload multiple files- Step 01: Upload multiple files to UI
+[INFO ] [2021-04-16 11:11:00,867] Upload multiple files: Step 02: Verify files are loaded to UI
+[INFO ] [2021-04-16 11:11:00,976]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-04-16 11:11:00,976] Upload multiple files: Step 03: Click Start Upload button
+[INFO ] [2021-04-16 11:11:07,146] Upload multiple files: Step 04: Verify files are uploaded to server
+[INFO ] [2021-04-16 11:11:07,247]  -------------------------- PASSED -------------------------- 
+[2021-04-16 11:15:53,600] [INFO ] [com.jQuery.upload.Level_10_Upload_File] - Upload a file- Step 01: Upload a file to UI
+[2021-04-16 11:15:53,684] [INFO ] [com.jQuery.upload.Level_10_Upload_File] - Upload a file: Step 02: Verify file is loaded to UI
+[2021-04-16 11:16:08,731] [INFO ] [com.jQuery.upload.Level_10_Upload_File] -  -------------------------- FAILED -------------------------- 
+[2021-04-16 11:16:08,733] [INFO ] [com.jQuery.upload.Level_10_Upload_File] - Upload a file: Step 03: Click Start Upload button
+[2021-04-16 11:16:10,781] [INFO ] [com.jQuery.upload.Level_10_Upload_File] - Upload a file: Step 04: Verify file is uploaded to server
+[2021-04-16 11:16:10,846] [INFO ] [com.jQuery.upload.Level_10_Upload_File] -  -------------------------- PASSED -------------------------- 
+[2021-04-16 11:16:10,850] [INFO ] [com.jQuery.upload.Level_10_Upload_File] - Upload multiple files- Step 00: Refresh the page
+[2021-04-16 11:16:11,815] [INFO ] [com.jQuery.upload.Level_10_Upload_File] - Upload multiple files- Step 01: Upload multiple files to UI
+[2021-04-16 11:16:11,864] [INFO ] [com.jQuery.upload.Level_10_Upload_File] - Upload multiple files: Step 02: Verify files are loaded to UI
+[2021-04-16 11:16:11,989] [INFO ] [com.jQuery.upload.Level_10_Upload_File] -  -------------------------- PASSED -------------------------- 
+[2021-04-16 11:16:11,990] [INFO ] [com.jQuery.upload.Level_10_Upload_File] - Upload multiple files: Step 03: Click Start Upload button
+[2021-04-16 11:16:18,124] [INFO ] [com.jQuery.upload.Level_10_Upload_File] - Upload multiple files: Step 04: Verify files are uploaded to server
+[2021-04-16 11:16:18,223] [INFO ] [com.jQuery.upload.Level_10_Upload_File] -  -------------------------- PASSED -------------------------- 
+[2021-04-19 09:46:20,569] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-19 09:46:21,928] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-19 09:46:22,089] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-19 09:46:22,211] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 09:46:22,338] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-19 09:46:22,474] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-19 09:46:22,590] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-19 09:46:22,703] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-19 09:46:27,754] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-19 09:46:27,757] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-19 09:46:42,808] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-19 09:46:43,272] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 09:46:44,401] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-19 09:46:44,553] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-19 09:46:45,649] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-19 09:47:00,722] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-19 10:59:00,084] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-19 10:59:01,956] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-19 10:59:02,147] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-19 10:59:02,256] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 10:59:02,367] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-19 10:59:02,486] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-19 10:59:02,633] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-19 10:59:02,757] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-19 10:59:07,853] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-19 10:59:07,856] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-19 10:59:23,226] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-19 10:59:24,410] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 10:59:25,563] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-19 10:59:25,672] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-19 10:59:27,060] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-19 10:59:42,383] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-19 13:13:53,909] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-19 13:13:55,327] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-19 13:13:55,517] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-19 13:13:55,665] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:13:55,796] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-19 13:13:55,914] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-19 13:13:56,037] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-19 13:13:56,167] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-19 13:14:01,261] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-19 13:14:01,263] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-19 13:14:16,620] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-19 13:14:17,736] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:14:18,857] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-19 13:14:18,991] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-19 13:14:19,414] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-19 13:14:34,712] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-19 13:20:48,220] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-19 13:20:50,826] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-19 13:20:51,101] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-19 13:20:51,270] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:20:51,484] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-19 13:20:51,593] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-19 13:20:51,716] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-19 13:20:51,879] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-19 13:20:56,948] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-19 13:20:56,950] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-19 13:21:12,313] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-19 13:21:13,528] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:21:14,667] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-19 13:21:14,808] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-19 13:21:16,095] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-19 13:21:31,431] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-19 13:38:15,288] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-19 13:38:16,673] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-19 13:38:16,958] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-19 13:38:17,131] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:38:17,316] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-19 13:38:17,459] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-19 13:38:17,570] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-19 13:38:17,651] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-19 13:38:22,698] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-19 13:38:22,702] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-19 13:38:38,141] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-19 13:38:39,249] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:38:40,419] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-19 13:38:40,578] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-19 13:38:41,751] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-19 13:38:57,075] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-19 13:46:37,983] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-19 13:46:39,307] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-19 13:46:39,505] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-19 13:46:39,621] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:46:39,751] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-19 13:46:39,870] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-19 13:46:39,994] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-19 13:46:40,088] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-19 13:46:45,177] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-19 13:46:45,179] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-19 13:47:00,584] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-19 13:47:01,211] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:47:02,371] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-19 13:47:02,499] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-19 13:47:03,028] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-19 13:47:18,363] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-19 13:49:37,864] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-19 13:49:39,334] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-19 13:49:39,528] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-19 13:49:39,638] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:49:39,783] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-19 13:49:39,955] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-19 13:49:40,157] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-19 13:49:40,251] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-19 13:49:45,347] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-19 13:49:45,349] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-19 13:50:00,714] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-19 13:50:01,950] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:50:03,125] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-19 13:50:03,273] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-19 13:50:04,573] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-19 13:50:19,906] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-19 13:55:19,418] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-19 13:55:20,869] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-19 13:55:21,108] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-19 13:55:21,232] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:55:21,372] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-19 13:55:21,484] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-19 13:55:21,611] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-19 13:55:21,715] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-19 13:55:26,764] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-19 13:55:26,772] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-19 13:55:42,257] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-19 13:55:43,476] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:55:44,612] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-19 13:55:44,723] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-19 13:55:46,009] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-19 13:56:01,301] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link

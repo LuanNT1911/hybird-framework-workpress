@@ -1,4 +1,16 @@
-[INFO ] [2021-04-15 22:48:49,654]  -------------------------- FAILED -------------------------- 
-[INFO ] [2021-04-15 22:48:51,967]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-04-15 22:48:54,079]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-04-15 22:49:00,447]  -------------------------- PASSED -------------------------- 
+[2021-04-19 13:55:19,418] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-19 13:55:20,869] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-19 13:55:21,108] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-19 13:55:21,232] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:55:21,372] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-19 13:55:21,484] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-19 13:55:21,611] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-19 13:55:21,715] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-19 13:55:26,764] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-19 13:55:26,772] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-19 13:55:42,257] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-19 13:55:43,476] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-19 13:55:44,612] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-19 13:55:44,723] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-19 13:55:46,009] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-19 13:56:01,301] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
