@@ -543,3 +543,75 @@
 [2021-04-20 14:41:49,949] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
 [2021-04-20 14:41:49,953] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - OS name = windows 10
 [2021-04-20 14:41:50,594] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - ---------- QUIT BROWSER SUCCESS ----------
+[2021-04-20 22:25:24,479] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Opening Register page
+[2021-04-20 22:25:26,240] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Select to Gender checkbox: Male
+[2021-04-20 22:25:26,552] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-20 22:25:26,661] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-20 22:25:26,764] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 22:25:26,884] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-20 22:25:27,015] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-20 22:25:27,120] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 07: Click to Register button
+[2021-04-20 22:25:29,362] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 08: Verify success message is displayed
+[2021-04-20 22:25:29,454] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 22:25:29,457] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 09: Click to Log Out link
+[2021-04-20 22:25:32,026] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Click to Log in link
+[2021-04-20 22:25:33,337] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Input to Email textbox: null
+[2021-04-20 22:25:34,580] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 01: Click to My account link
+[2021-04-20 22:25:49,777] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - OS name = windows 10
+[2021-04-20 22:25:50,802] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - ---------- QUIT BROWSER SUCCESS ----------
+[2021-04-20 22:41:46,803] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Opening Register page
+[2021-04-20 22:41:51,485] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Select to Gender checkbox: Male
+[2021-04-20 22:41:51,795] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-20 22:41:51,905] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-20 22:41:52,013] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 22:41:52,133] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-20 22:41:52,242] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-20 22:41:52,360] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 07: Click to Register button
+[2021-04-20 22:41:54,082] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 08: Verify success message is displayed
+[2021-04-20 22:41:59,154] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- FAILED -------------------------- 
+[2021-04-20 22:41:59,176] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 09: Click to Log Out link
+[2021-04-20 22:42:14,375] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Click to Log in link
+[2021-04-20 22:42:15,200] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 22:42:16,319] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-20 22:42:16,429] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 03: Click to Log in button
+[2021-04-20 22:42:18,469] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 04: Verify My account link is displayed
+[2021-04-20 22:42:18,558] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 22:42:18,567] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 01: Click to My account link
+[2021-04-20 22:42:19,698] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-04-20 22:42:19,777] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 22:42:19,777] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 03: Verify Fist Name textbox is: Earn
+[2021-04-20 22:42:19,848] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- FAILED -------------------------- 
+[2021-04-20 22:42:19,848] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 04: Verify Last Name textbox is:Shawn
+[2021-04-20 22:42:19,918] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- FAILED -------------------------- 
+[2021-04-20 22:42:19,918] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 05: Verify Email textbox is:earnshaw@gmail.com
+[2021-04-20 22:42:19,976] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- FAILED -------------------------- 
+[2021-04-20 22:42:20,096] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - OS name = windows 10
+[2021-04-20 22:42:21,174] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - ---------- QUIT BROWSER SUCCESS ----------
+[2021-04-20 22:45:02,504] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Opening Register page
+[2021-04-20 22:45:05,116] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Select to Gender checkbox: Male
+[2021-04-20 22:45:05,411] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-20 22:45:05,504] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-20 22:45:05,613] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 22:45:05,727] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-20 22:45:05,825] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-20 22:45:05,934] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 07: Click to Register button
+[2021-04-20 22:45:06,539] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 08: Verify success message is displayed
+[2021-04-20 22:45:11,648] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- FAILED -------------------------- 
+[2021-04-20 22:45:11,663] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 09: Click to Log Out link
+[2021-04-20 22:45:26,850] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Click to Log in link
+[2021-04-20 22:45:27,398] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 22:45:28,508] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-20 22:45:28,601] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 03: Click to Log in button
+[2021-04-20 22:45:30,151] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 04: Verify My account link is displayed
+[2021-04-20 22:45:30,262] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 22:45:30,269] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 01: Click to My account link
+[2021-04-20 22:45:31,647] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-04-20 22:45:31,728] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 22:45:31,728] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 03: Verify Fist Name textbox is: Earn
+[2021-04-20 22:45:31,803] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 22:45:31,803] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 04: Verify Last Name textbox is:Shawn
+[2021-04-20 22:45:31,864] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 22:45:31,865] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 05: Verify Email textbox is:earnshaw@gmail.com
+[2021-04-20 22:45:31,942] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 22:45:31,946] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - OS name = windows 10
+[2021-04-20 22:45:33,168] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - ---------- QUIT BROWSER SUCCESS ----------

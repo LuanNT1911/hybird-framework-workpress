@@ -8,15 +8,21 @@
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
   <parameter name="url" value="https://demo.nopcommerce.com/"/>
-  <test name="Run on Chrome">
-    <parameter name="browser" value = "firefox"/>
-    <classes>
-        <class name="com.nopCommerce.commons.Commons_01_Register_ToSystem"/>
-      <class name="com.nopCommerce.users.Level_6_Login_Page_Generator_Manager"/>
-    </classes>
-  </test> <!-- Test -->
-<!--  <test name="Run on Firefox">-->
-<!--    <parameter name="browser" value = "firefox"/>-->
+<!--    <test name="Run on Chrome">-->
+<!--        <parameter name="browser" value = "firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="com.nopCommerce.commons.Commons_01_Register_ToSystem"/>-->
+<!--            <class name="com.nopCommerce.users.Level_6_Login_Page_Generator_Manager"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Run on Chrome">
+        <parameter name="browser" value = "firefox"/>
+        <classes>
+            <class name="com.nopCommerce.users.Login_Page_Pattern_Object"/>
+        </classes>
+    </test> <!-- Test -->
+    <!--  <test name="Run on Firefox">-->
+    <!--    <parameter name="browser" value = "firefox"/>-->
 <!--    <classes>-->
 <!--      <class name="com.wordpress.posts.Level_4_Login_Multiple_Browsers"/>-->
 <!--    </classes>-->
