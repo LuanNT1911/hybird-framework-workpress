@@ -269,6 +269,11 @@ public class BasePage {
         return getWebElement(driver, locator).isSelected();
     }
 
+    public boolean isElementSelected(WebDriver driver, String dynamicLocator, String...param) {
+        String locator = getDynamicLocator(dynamicLocator, param);
+        return getWebElement(driver, locator).isSelected();
+    }
+
     public void switchToFrame(WebDriver driver, String locator) {
         driver.switchTo().frame(getWebElement(driver, locator));
     }

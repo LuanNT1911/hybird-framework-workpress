@@ -417,3 +417,129 @@
 [2021-04-19 13:55:44,723] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
 [2021-04-19 13:55:46,009] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
 [2021-04-19 13:56:01,301] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-20 11:29:31,509] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-20 11:29:32,230] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Select to Gender checkbox: Male
+[2021-04-20 11:29:32,332] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-20 11:29:32,539] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-20 11:29:32,695] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 11:29:32,815] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-20 11:29:32,933] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-20 11:29:33,059] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-20 11:29:33,166] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-20 11:29:38,227] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-20 11:29:38,232] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-20 11:29:53,617] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-20 11:29:54,829] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 11:29:55,971] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-20 11:29:56,109] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-20 11:29:57,384] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-20 11:30:12,732] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-20 11:38:35,549] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-20 11:38:38,103] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Select to Gender checkbox: Male
+[2021-04-20 11:38:38,209] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-20 11:38:38,415] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-20 11:38:38,540] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 11:38:38,668] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-20 11:38:38,787] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-20 11:38:38,898] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-20 11:38:41,186] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-20 11:38:41,250] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 11:38:41,251] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-20 11:38:43,910] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-20 11:38:44,342] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 11:38:45,472] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-20 11:38:45,584] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-20 11:38:47,954] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-20 11:38:48,022] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 11:38:48,027] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-20 11:38:48,562] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 02: Verify Fist Name textbox is: Earn
+[2021-04-20 11:38:48,625] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 11:38:48,625] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 03: Verify Last Name textbox is:Shawn
+[2021-04-20 11:38:48,687] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 11:38:48,687] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 04: Verify Email textbox is:earnshaw@gmail.com
+[2021-04-20 11:38:48,748] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 11:46:21,391] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-20 11:46:23,918] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Select to Gender checkbox: Male
+[2021-04-20 11:46:24,032] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-20 11:46:24,245] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-20 11:46:24,372] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 11:46:24,500] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-20 11:46:24,621] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-20 11:46:24,742] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-20 11:46:25,236] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-20 11:46:30,323] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-20 11:46:30,330] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-20 11:46:45,744] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-20 11:46:46,887] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 11:46:48,015] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-20 11:46:48,156] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-20 11:46:49,776] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-20 11:46:49,842] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 11:46:49,848] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-20 11:46:49,922] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-04-20 11:47:36,097] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Opening Register page
+[2021-04-20 11:47:37,724] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 01: Select to Gender checkbox: Male
+[2021-04-20 11:47:38,043] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 02: Input to First Name textbox: Earn
+[2021-04-20 11:47:38,263] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 03: Input to Last Name textbox: Shawn
+[2021-04-20 11:47:38,381] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 04: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 11:47:38,503] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 05: Input to Password textbox: 123456
+[2021-04-20 11:47:38,638] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-04-20 11:47:38,731] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 07: Click to Register button
+[2021-04-20 11:47:40,080] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 08: Verify success message is displayed
+[2021-04-20 11:47:45,146] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-20 11:47:45,155] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Register - Step 09: Click to Log Out link
+[2021-04-20 11:48:00,317] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-20 11:48:01,496] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 11:48:02,621] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-20 11:48:02,716] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-20 11:48:03,572] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-20 11:48:03,663] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 11:48:03,669] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-20 11:48:05,032] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-04-20 11:48:05,116] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- FAILED -------------------------- 
+[2021-04-20 11:48:05,116] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 03: Verify Fist Name textbox is: Earn
+[2021-04-20 11:48:05,188] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 11:48:05,188] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 04: Verify Last Name textbox is:Shawn
+[2021-04-20 11:48:05,264] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 11:48:05,264] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 05: Verify Email textbox is:earnshaw@gmail.com
+[2021-04-20 11:48:05,373] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 14:28:38,291] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-20 14:28:39,610] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: null
+[2021-04-20 14:28:40,748] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: null
+[2021-04-20 14:28:40,979] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-20 14:28:56,050] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - OS name = windows 10
+[2021-04-20 14:28:56,720] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - ---------- QUIT BROWSER SUCCESS ----------
+[2021-04-20 14:31:05,516] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-20 14:31:06,771] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 14:31:07,880] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-20 14:31:08,003] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-20 14:31:10,438] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-20 14:31:10,541] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 14:31:10,605] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-20 14:31:11,078] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-04-20 14:31:11,161] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 14:31:11,162] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 03: Verify Fist Name textbox is: Earn
+[2021-04-20 14:31:11,240] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 14:31:11,240] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 04: Verify Last Name textbox is:Shawn
+[2021-04-20 14:31:11,316] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 14:31:11,316] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 05: Verify Email textbox is:earnshaw@gmail.com
+[2021-04-20 14:31:11,390] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 14:31:11,393] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - OS name = windows 10
+[2021-04-20 14:31:12,039] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - ---------- QUIT BROWSER SUCCESS ----------
+[2021-04-20 14:41:43,139] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Click to Log in link
+[2021-04-20 14:41:44,472] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 01: Input to Email textbox: earnshaw@gmail.com
+[2021-04-20 14:41:45,596] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 02: Input to Password textbox: 123456
+[2021-04-20 14:41:45,675] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 03: Click to Log in button
+[2021-04-20 14:41:48,057] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Login - Step 04: Verify My account link is displayed
+[2021-04-20 14:41:48,190] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 14:41:48,267] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 01: Click to My account link
+[2021-04-20 14:41:49,653] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-04-20 14:41:49,722] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 14:41:49,722] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 03: Verify Fist Name textbox is: Earn
+[2021-04-20 14:41:49,795] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 14:41:49,795] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 04: Verify Last Name textbox is:Shawn
+[2021-04-20 14:41:49,889] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 14:41:49,889] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - Customer - Step 05: Verify Email textbox is:earnshaw@gmail.com
+[2021-04-20 14:41:49,949] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] -  -------------------------- PASSED -------------------------- 
+[2021-04-20 14:41:49,953] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - OS name = windows 10
+[2021-04-20 14:41:50,594] [INFO ] [com.nopCommerce.users.Level_6_Login_Page_Generator_Manager] - ---------- QUIT BROWSER SUCCESS ----------

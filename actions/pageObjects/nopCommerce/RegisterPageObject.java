@@ -7,11 +7,21 @@ import pageUIs.nopCommerce.RegisterPageUI;
 
 public class RegisterPageObject extends BasePage {
     WebDriver driver;
-//	PageGeneratorManager pageGenerator;
 
     public RegisterPageObject(WebDriver driver) {
         this.driver = driver;
-//		pageGenerator = PageGeneratorManager.getPageGenerator();
+    }
+
+    @Step("Check to Gender checkbox: {0}")
+    public void checkToGenderCheckbox(String gender){
+        String valueGender = null;
+        if(gender.equalsIgnoreCase("male")){
+            valueGender = "M";
+        }else if(gender.equalsIgnoreCase("female")){
+            valueGender = "F";
+        }
+        waitForElementClickable(driver, RegisterPageUI.GENDER_CHECKBOX,valueGender);
+        clickToElement(driver, RegisterPageUI.GENDER_CHECKBOX,valueGender);
     }
 
     @Step("Input to First Name textbox: {0}")
