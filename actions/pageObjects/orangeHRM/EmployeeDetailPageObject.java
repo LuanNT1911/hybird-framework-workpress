@@ -23,7 +23,7 @@ public class EmployeeDetailPageObject extends BasePage {
 
     public String getEmployeeIdAtAddForm() {
         waitForElementVisible(driver, EmployeeDetailPageUI.EMPLOYEE_ID_TEXTBOX_ADD_FORM);
-        return getElementText(driver, EmployeeDetailPageUI.EMPLOYEE_ID_TEXTBOX_ADD_FORM);
+        return getElementTextByAttribute(driver, EmployeeDetailPageUI.EMPLOYEE_ID_TEXTBOX_ADD_FORM);
     }
 
     public void clickToSaveButton() {
@@ -48,6 +48,6 @@ public class EmployeeDetailPageObject extends BasePage {
 
     public String getEmployeeIDAtPersonalForm() {
         waitForElementVisible(driver, EmployeeDetailPageUI.EMPLOYEE_ID_TEXTBOX_PERSONAL_FORM);
-        return getElementText(driver, EmployeeDetailPageUI.EMPLOYEE_ID_TEXTBOX_PERSONAL_FORM);
+        return getElementTextByAttribute(driver, EmployeeDetailPageUI.EMPLOYEE_ID_TEXTBOX_PERSONAL_FORM);
     }
 }
