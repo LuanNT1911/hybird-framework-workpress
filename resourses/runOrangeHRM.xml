@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="fail" name="Orange HRM" thread-cout="3">
+  <listeners>
+    <listener class-name="reportConfig.ExtentReportListener"/>
+    <listener class-name="reportConfig.AllureReportListener"/>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/dashboard/"/>
+<!--    <test name="Run on Chrome">-->
+<!--        <parameter name="browser" value = "firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="com.nopCommerce.commons.Commons_01_Register_ToSystem"/>-->
+<!--            <class name="com.nopCommerce.users.Level_6_Login_Page_Generator_Manager"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Run on Chrome">
+        <parameter name="browser" value = "chrome"/>
+        <classes>
+            <class name="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User"/>
+        </classes>
+    </test> <!-- Test -->
+    <!--  <test name="Run on Firefox">-->
+    <!--    <parameter name="browser" value = "firefox"/>-->
+<!--    <classes>-->
+<!--      <class name="com.wordpress.posts.Level_4_Login_Multiple_Browsers"/>-->
+<!--    </classes>-->
+<!--  </test>-->
+<!--  <test name="Run on Edge Chromium">-->
+<!--    <parameter name="browser" value = "edge_chromium"/>-->
+<!--    <classes>-->
+<!--      <class name="com.wordpress.posts.Level_4_Login_Multiple_Browsers"/>-->
+<!--    </classes>-->
+<!--  </test>-->
+</suite> <!-- Suite -->

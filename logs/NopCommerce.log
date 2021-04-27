@@ -615,3 +615,13 @@
 [2021-04-20 22:45:31,942] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
 [2021-04-20 22:45:31,946] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - OS name = windows 10
 [2021-04-20 22:45:33,168] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - ---------- QUIT BROWSER SUCCESS ----------
+[2021-04-25 17:11:27,026] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Enter to Username textbox
+[2021-04-25 17:11:27,275] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 02: Enter to Password textbox
+[2021-04-25 17:11:27,456] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Click to Login button
+[2021-04-25 17:11:31,149] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - OS name = windows 10
+[2021-04-25 17:11:32,122] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - ---------- QUIT BROWSER SUCCESS ----------
+[2021-04-25 17:14:16,343] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Enter to Username textbox
+[2021-04-25 17:14:16,561] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 02: Enter to Password textbox
+[2021-04-25 17:14:16,746] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Click to Login button
+[2021-04-25 17:14:19,919] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - OS name = windows 10
+[2021-04-25 17:14:20,872] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - ---------- QUIT BROWSER SUCCESS ----------
