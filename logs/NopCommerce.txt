@@ -1,5 +1,10 @@
-[2021-04-25 17:14:16,343] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Enter to Username textbox
-[2021-04-25 17:14:16,561] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 02: Enter to Password textbox
-[2021-04-25 17:14:16,746] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Click to Login button
-[2021-04-25 17:14:19,919] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - OS name = windows 10
-[2021-04-25 17:14:20,872] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - ---------- QUIT BROWSER SUCCESS ----------
+[2021-04-27 14:56:27,673] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Enter to Username textbox
+[2021-04-27 14:56:27,821] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 02: Enter to Password textbox
+[2021-04-27 14:56:27,931] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Click to Login button
+[2021-04-27 14:56:31,484] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 01: Navigate to Employee List
+[2021-04-27 14:56:35,929] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-04-27 14:56:38,034] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- FAILED -------------------------- 
+[2021-04-27 14:56:38,126] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- FAILED -------------------------- 
+[2021-04-27 14:56:38,174] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-04-27 14:56:38,387] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - OS name = windows 10
+[2021-04-27 14:56:39,128] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - ---------- QUIT BROWSER SUCCESS ----------

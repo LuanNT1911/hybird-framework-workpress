@@ -10,6 +10,7 @@ import pageObjects.nopCommerce.HomePageObject;
 import pageObjects.nopCommerce.LoginPageObject;
 import pageObjects.nopCommerce.PageGeneratorManager;
 import pageUIs.nopCommerce.BasePageUI;
+import pageUIs.orangeHRM.OrangeHRMBasePageUI;
 
 import java.util.List;
 import java.util.Set;
@@ -540,5 +541,15 @@ public class BasePage {
     public boolean isRadioButtonCheckedById(WebDriver driver, String radioButtonId) {
         waitForElementVisible(driver, BasePageUI.RADIO_BUTTON_BY_ID, radioButtonId);
         return isElementSelected(driver, BasePageUI.RADIO_BUTTON_BY_ID, radioButtonId);
+    }
+
+
+    /*
+    * Orange HRM Project
+    * */
+
+    public void openDynamicMenuPage(WebDriver driver, String pageName) {
+        waitForElementClickable(driver, OrangeHRMBasePageUI.DYNAMIC_MENU_LINK, pageName);
+        clickToElement(driver, OrangeHRMBasePageUI.DYNAMIC_MENU_LINK, pageName);
     }
 }

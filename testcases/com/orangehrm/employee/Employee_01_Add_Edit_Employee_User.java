@@ -13,13 +13,19 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
     LoginPageObject loginPage;
     DashboardPageObject dashboardPage;
     EmployeeDetailPageObject employeeDetailPage;
+    EmployeeListPageObject employeeListPage;
     UserDetailPageObject userDetailPage;
+
+    String firstName, lastName, employeeID;
 
     @Parameters({"browser", "url"})
     @BeforeClass
     public void BeforeClass(String browserName, String url) {
         driver = getBrowserDriver(browserName, url);
         loginPage = PageGeneratorManager.getLoginPage(driver);
+
+        firstName = "Now " + getRandomNumber();
+        lastName = "Beamin " + getRandomNumber();
 
         log.info("Pre-Condition - Step 01: Enter to Username textbox");
         loginPage.enterToUsernameTextbox("Admin");
@@ -33,6 +39,29 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 
     @Test
     public void Employee_01_Add_Employee() {
+        log.info("Add Employee - Step 01: Navigate to Employee List");
+        dashboardPage.openDynamicMenuPage(driver, "PIM");
+        employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
+
+        employeeDetailPage = employeeListPage.clickToAddButton();
+
+        employeeDetailPage.enterToFirstNameTextbox(firstName);
+
+        employeeDetailPage.enterToLastNameTextbox(lastName);
+
+        employeeID = employeeDetailPage.getEmployeeIdAtAddForm();
+
+        employeeDetailPage.clickToSaveButton();
+
+        verifyTrue(employeeDetailPage.isFullNameDisplayedAtHeader(firstName + " " + lastName));
+
+        employeeDetailPage.sleepInSeconds(2);
+
+        verifyEquals(employeeDetailPage.getFirstNameDisplayedAtPersonalForm(), firstName);
+
+        verifyEquals(employeeDetailPage.getLastNameDisplayedAtPersonalForm(), lastName);
+
+        verifyEquals(employeeDetailPage.getEmployeeIDAtPersonalForm(), employeeID);
 
     }
 

@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
@@ -157,6 +158,11 @@ public class BaseTest {
 
     public WebDriver getDriver() {
         return driver;
+    }
+
+    protected int getRandomNumber(){
+        Random random = new Random();
+        return random.nextInt(99999);
     }
 
     protected void closeBrowserAndDriver(WebDriver driver) {
