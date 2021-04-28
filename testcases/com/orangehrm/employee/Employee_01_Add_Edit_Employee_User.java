@@ -72,38 +72,50 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 
     }
 
+
     @Test
-    public void Employee_02_Search_Employee() {
+    public void Employee_02_Edit_Employee_By_Personal() {
+        log.info("Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form");
+
+        log.info("Edit Employee [Personal] - Step 02: Enter new info to 'Firstname' textbox");
+
+        log.info("Edit Employee [Personal] - Step 03: Enter new infor to 'Lastname' textbox");
+
+        log.info("Edit Employee [Personal] - Step 04: Enter new infor to 'SSN Number' textbox");
+
+        log.info("Edit Employee [Personal] - Step 05: Click to 'Gender' radio with: ");
+
+        log.info("Edit Employee [Personal] - Step 06: Select to 'Marital Status' dropdown with: ");
+
+        log.info("Edit Employee [Personal] - Step 07: Select to 'Nationality' dropdown with" );
+
+        log.info("Edit Employee [Personal] - Step 08: Enter new info to 'Date of Birth' textbox" );
+
+        log.info("Edit Employee [Personal] - Step 09: Click to 'Save' button at 'Personal Details' form" );
+    }
+
+    @Test
+    public void Employee_03_Edit_Employee_By_Contact() {
 
     }
 
     @Test
-    public void Employee_03_Edit_Employee_By_Personal() {
+    public void Employee_04_Edit_Employee_By_Job() {
 
     }
 
     @Test
-    public void Employee_04_Edit_Employee_By_Contact() {
+    public void Employee_05_Edit_Employee_By_Salary() {
 
     }
 
     @Test
-    public void Employee_05_Edit_Employee_By_Job() {
+    public void Employee_06_Add_User_To_Employee() {
 
     }
 
     @Test
-    public void Employee_06_Edit_Employee_By_Salary() {
-
-    }
-
-    @Test
-    public void Employee_07_Add_User_To_Employee() {
-
-    }
-
-    @Test
-    public void Employee_08_Search_User() {
+    public void Employee_07_Search_User() {
 
     }
 
@@ -113,7 +125,11 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
     }
 
     @Test
-    public void Employee_09_Delete_Employee() {
+    public void Employee_02_Search_Employee() {
+    }
+
+    @Test
+    public void Employee_10_Delete_Employee() {
 
     }
 

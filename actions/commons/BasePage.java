@@ -552,4 +552,9 @@ public class BasePage {
         waitForElementClickable(driver, OrangeHRMBasePageUI.DYNAMIC_MENU_LINK, pageName);
         clickToElement(driver, OrangeHRMBasePageUI.DYNAMIC_MENU_LINK, pageName);
     }
+
+    public void clickToButtonByNameAtFormHeader(WebDriver driver, String location, String headerName, String buttonName){
+        waitForElementClickable(driver, OrangeHRMBasePageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, location, headerName, buttonName);
+        clickToElement(driver, OrangeHRMBasePageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, location, headerName, buttonName);
+    }
 }
