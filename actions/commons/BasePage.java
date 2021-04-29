@@ -153,9 +153,9 @@ public class BasePage {
         select.selectByVisibleText(value);
     }
 
-    public String getSelectItemInDropdownList(WebDriver driver, String locator, String value) {
+    public String getFirstSelectedTextInDropdown(WebDriver driver, String locator) {
         Select select = new Select(getWebElement(driver, locator));
-        return select.getFirstSelectedOption().getText();
+        return select.getFirstSelectedOption().getText().trim();
     }
 
     public boolean isDropdownMultiple(WebDriver driver, String locator) {
@@ -202,13 +202,13 @@ public class BasePage {
         return getWebElement(driver, locator).getText().trim();
     }
 
-    public String getElementTextByAttribute(WebDriver driver, String locator) {
-        return getWebElement(driver, locator).getAttribute("value").trim();
+    public String getElementTextByAttribute(WebDriver driver, String locator, String attribute) {
+        return getWebElement(driver, locator).getAttribute(attribute).trim();
     }
 
-    public String getElementTextByAttribute(WebDriver driver, String dynamicLocator, String... param) {
+    public String getElementTextByAttribute(WebDriver driver, String dynamicLocator,String attribute, String... param) {
         String locator = getDynamicLocator(dynamicLocator, param);
-        return getWebElement(driver, locator).getAttribute("value").trim();
+        return getWebElement(driver, locator).getAttribute(attribute).trim();
     }
 
     public String getAttribute(WebDriver driver, String locator, String attributeName) {
@@ -545,16 +545,16 @@ public class BasePage {
 
 
     /*
-    * Orange HRM Project
-    * */
+     * Orange HRM Project
+     * */
 
     public void openDynamicMenuPage(WebDriver driver, String pageName) {
         waitForElementClickable(driver, OrangeHRMBasePageUI.DYNAMIC_MENU_LINK, pageName);
         clickToElement(driver, OrangeHRMBasePageUI.DYNAMIC_MENU_LINK, pageName);
     }
 
-    public void clickToButtonByNameAtFormHeader(WebDriver driver, String location, String headerName, String buttonName){
-        waitForElementClickable(driver, OrangeHRMBasePageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, location, headerName, buttonName);
-        clickToElement(driver, OrangeHRMBasePageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, location, headerName, buttonName);
+    public void clickToButtonByNameAtFormHeader(WebDriver driver, String headerName, String buttonName) {
+        waitForElementClickable(driver, OrangeHRMBasePageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, headerName, buttonName);
+        clickToElement(driver, OrangeHRMBasePageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, headerName, buttonName);
     }
 }

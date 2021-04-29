@@ -25,16 +25,16 @@ public class CustomerInforPageObject extends BasePage {
 
     public String getFirstNameTextboxValue() {
         waitForElementVisible(driver, CustomerInforPageUI.FIRSTNAME_TEXTBOX);
-        return getElementTextByAttribute(driver, CustomerInforPageUI.FIRSTNAME_TEXTBOX);
+        return getElementTextByAttribute(driver, CustomerInforPageUI.FIRSTNAME_TEXTBOX, "value");
     }
 
     public String getLastNameTextboxValue() {
         waitForElementVisible(driver, CustomerInforPageUI.LASTNAME_TEXTBOX);
-        return getElementTextByAttribute(driver, CustomerInforPageUI.LASTNAME_TEXTBOX);
+        return getElementTextByAttribute(driver, CustomerInforPageUI.LASTNAME_TEXTBOX, "value");
     }
 
     public String getEmailTextboxValue() {
         waitForElementVisible(driver, CustomerInforPageUI.EMAIL_TEXTBOX);
-        return getElementTextByAttribute(driver, CustomerInforPageUI.EMAIL_TEXTBOX);
+        return getElementTextByAttribute(driver, CustomerInforPageUI.EMAIL_TEXTBOX, "value");
     }
 }
