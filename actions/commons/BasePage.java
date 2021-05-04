@@ -206,7 +206,7 @@ public class BasePage {
         return getWebElement(driver, locator).getAttribute(attribute).trim();
     }
 
-    public String getElementTextByAttribute(WebDriver driver, String dynamicLocator,String attribute, String... param) {
+    public String getElementTextByAttribute(WebDriver driver, String dynamicLocator, String attribute, String... param) {
         String locator = getDynamicLocator(dynamicLocator, param);
         return getWebElement(driver, locator).getAttribute(attribute).trim();
     }
@@ -216,6 +216,11 @@ public class BasePage {
     }
 
     public int getElementSize(WebDriver driver, String locator) {
+        return getListWebElement(driver, locator).size();
+    }
+
+    public int getElementSize(WebDriver driver, String dynamicLocator, String... param) {
+        String locator = getDynamicLocator(dynamicLocator, param);
         return getListWebElement(driver, locator).size();
     }
 
@@ -553,8 +558,19 @@ public class BasePage {
         clickToElement(driver, OrangeHRMBasePageUI.DYNAMIC_MENU_LINK, pageName);
     }
 
+    public void openSidebarTabByName(WebDriver driver, String tabName) {
+        waitForElementClickable(driver, OrangeHRMBasePageUI.DYNAMIC_SIDEBAR_TAB_LINK, tabName);
+        clickToElement(driver, OrangeHRMBasePageUI.DYNAMIC_SIDEBAR_TAB_LINK, tabName);
+    }
+
     public void clickToButtonByNameAtFormHeader(WebDriver driver, String headerName, String buttonName) {
         waitForElementClickable(driver, OrangeHRMBasePageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, headerName, buttonName);
         clickToElement(driver, OrangeHRMBasePageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, headerName, buttonName);
+    }
+
+    public boolean isInformationInTableAtColumnNameIndexAndRowIndex(WebDriver driver, String tableId, String columnName, String rowIndex, String expectedValue) {
+        int columnNameIndex = getElementSize(driver, OrangeHRMBasePageUI.DYNAMIC_TABLE_COLUMN_NAME_PRECEDING_SIBLING, tableId, columnName) + 1;
+        String cellValue = getElementText(driver, OrangeHRMBasePageUI.CELL_VALUE_MIX_BY_COLUMN_AND_ROW_INDEX, tableId, rowIndex, String.valueOf(columnNameIndex));
+        return expectedValue.equals(cellValue);
     }
 }

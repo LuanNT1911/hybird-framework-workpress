@@ -1,34 +1,64 @@
-[2021-04-29 14:52:18,747] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Enter to Username textbox
-[2021-04-29 14:52:18,892] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 02: Enter to Password textbox
-[2021-04-29 14:52:19,001] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Click to Login button
-[2021-04-29 14:52:28,923] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 01: Navigate to Employee List
-[2021-04-29 14:52:31,705] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 02: Click to Add button
-[2021-04-29 14:52:32,469] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 03: Enter to FirstName textbox: Now 81265
-[2021-04-29 14:52:32,591] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 04: Enter to LastName textbox: Beamin 39031
-[2021-04-29 14:52:32,778] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 05: Enter to Save button
-[2021-04-29 14:52:34,402] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 06: Verify FullName header is displayed: Now 81265 Beamin 39031
-[2021-04-29 14:52:34,471] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-04-29 14:52:34,473] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 07: Verify FirstName is displayed: Now 81265
-[2021-04-29 14:52:34,543] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-04-29 14:52:34,543] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 08: Verify LastName is displayed: Beamin 39031
-[2021-04-29 14:52:34,619] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-04-29 14:52:34,619] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 09: Verify Employee ID is displayed: 0319
-[2021-04-29 14:52:34,714] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-04-29 14:52:34,765] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form
-[2021-04-29 14:52:34,870] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 02: Enter new info to 'Firstname' textbox
-[2021-04-29 14:52:34,998] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 03: Enter new infor to 'Lastname' textbox
-[2021-04-29 14:52:35,119] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 04: Enter new infor to 'SSN Number' textbox
-[2021-04-29 14:52:35,238] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 05: Click to 'Gender' radio with: 
-[2021-04-29 14:52:35,316] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 06: Select to 'Marital Status' dropdown with: 
-[2021-04-29 14:52:35,431] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 07: Select to 'Nationality' dropdown with
-[2021-04-29 14:52:35,555] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 08: Enter new info to 'Date of Birth' textbox
-[2021-04-29 14:52:35,727] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 09: Click to 'Save' button at 'Personal Details' form
-[2021-04-29 14:52:37,084] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 10: Verify Success message displayed with value 'Successfully Saved'
-[2021-04-29 14:52:37,144] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-04-29 14:52:37,144] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 11: Verify 'Firstname' textbox is edited successfully
-[2021-04-29 14:52:37,212] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-04-29 14:52:37,212] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 12: Verify 'Lastname' textbox is edited successfully
-[2021-04-29 14:52:37,322] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-04-29 14:52:37,322] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 13: Verify 'SSN Number' textbox is edited successfully
-[2021-04-29 14:52:37,400] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-04-29 14:52:37,400] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 14: Verify 'Gender' radio is edited successfully
+[2021-05-04 13:58:34,718] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Enter to Username textbox
+[2021-05-04 13:58:34,866] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 02: Enter to Password textbox
+[2021-05-04 13:58:35,005] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Click to Login button
+[2021-05-04 13:58:38,410] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 01: Navigate to Employee List
+[2021-05-04 13:58:41,180] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 02: Click to Add button
+[2021-05-04 13:58:41,841] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 03: Enter to FirstName textbox: Now 87714
+[2021-05-04 13:58:41,960] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 04: Enter to LastName textbox: Beamin 83595
+[2021-05-04 13:58:42,132] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 05: Enter to Save button
+[2021-05-04 13:58:43,691] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 06: Verify FullName header is displayed: Now 87714 Beamin 83595
+[2021-05-04 13:58:43,752] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:43,754] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 07: Verify FirstName is displayed: Now 87714
+[2021-05-04 13:58:43,825] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:43,825] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 08: Verify LastName is displayed: Beamin 83595
+[2021-05-04 13:58:43,904] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:43,904] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 09: Verify Employee ID is displayed: 0347
+[2021-05-04 13:58:43,966] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:44,014] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form
+[2021-05-04 13:58:44,138] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 02: Enter new info to 'Firstname' textbox
+[2021-05-04 13:58:44,258] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 03: Enter new infor to 'Lastname' textbox
+[2021-05-04 13:58:44,401] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 04: Enter new infor to 'SSN Number' textbox
+[2021-05-04 13:58:44,516] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 05: Click to 'Gender' radio with: 
+[2021-05-04 13:58:44,594] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 06: Select to 'Marital Status' dropdown with: 
+[2021-05-04 13:58:44,751] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 07: Select to 'Nationality' dropdown with
+[2021-05-04 13:58:44,959] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 08: Enter new info to 'Date of Birth' textbox
+[2021-05-04 13:58:45,114] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 09: Click to 'Save' button at 'Personal Details' form
+[2021-05-04 13:58:46,518] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 10: Verify Success message displayed with value 'Successfully Saved'
+[2021-05-04 13:58:46,570] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:46,570] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 11: Verify 'Firstname' textbox is edited successfully
+[2021-05-04 13:58:46,638] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:46,638] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 12: Verify 'Lastname' textbox is edited successfully
+[2021-05-04 13:58:46,712] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:46,712] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 13: Verify 'SSN Number' textbox is edited successfully
+[2021-05-04 13:58:46,777] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:46,777] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 14: Verify 'Gender' radio is edited successfully
+[2021-05-04 13:58:46,829] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:46,829] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 15: Verify 'Marital Status' dropdown is edited successfully
+[2021-05-04 13:58:46,959] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:46,959] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 16: Verify 'Nationality' dropdown is edited successfully
+[2021-05-04 13:58:48,077] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:48,077] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 17: Verify 'Date of Birth' textbox is edited successfully
+[2021-05-04 13:58:48,137] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:48,144] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 01: Navigate to 'Salary' tab
+[2021-05-04 13:58:49,193] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 02: Click to 'Add' button at Assign Salary Components
+[2021-05-04 13:58:49,309] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 03: Select 'Pay Grade' with value: Grade 1
+[2021-05-04 13:58:49,420] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 04: Enter to 'Salary Component' with value: Manual 1911
+[2021-05-04 13:58:49,562] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 05: Select 'Pay Frequency' with value: Hourly
+[2021-05-04 13:58:49,713] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 06: Select 'Currency' with value: United States Dollar
+[2021-05-04 13:58:49,820] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 07: Enter to 'Amount' with value: 55000
+[2021-05-04 13:58:49,943] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 08: Enter to 'Comments' with value: Testing
+[2021-05-04 13:58:50,064] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 09: Click to 'Save' button at 'Add Salary Component' form
+[2021-05-04 13:58:51,481] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 10: Verify 'Salary Component' value at table 'Add Salary Component' with value: Manual 1911
+[2021-05-04 13:58:51,527] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:51,527] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 11: Verify 'Pay Frequency' value at table 'Add Salary Component' with value: Hourly
+[2021-05-04 13:58:51,568] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:51,568] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 12: Verify 'Currency' value at table 'Add Salary Component' with value: United States Dollar
+[2021-05-04 13:58:51,631] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:51,631] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 11: Verify 'Amount' value at table 'Add Salary Component' with value: 55000
+[2021-05-04 13:58:51,678] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:51,678] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 11: Verify 'Comments' value at table 'Add Salary Component' with value: Testing
+[2021-05-04 13:58:51,723] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:51,723] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 11: Verify 'Show Direct Deposit Details' value at table 'Add Salary Component' with value: 
+[2021-05-04 13:58:51,771] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-04 13:58:51,795] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - OS name = windows 10
+[2021-05-04 13:58:52,509] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - ---------- QUIT BROWSER SUCCESS ----------
