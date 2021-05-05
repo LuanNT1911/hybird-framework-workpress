@@ -155,7 +155,7 @@ public class BasePage {
 
     public String getFirstSelectedTextInDropdown(WebDriver driver, String locator) {
         Select select = new Select(getWebElement(driver, locator));
-        return select.getFirstSelectedOption().getText().trim();
+        return select.getFirstSelectedOption().getText();
     }
 
     public boolean isDropdownMultiple(WebDriver driver, String locator) {

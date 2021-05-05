@@ -27,13 +27,17 @@ public class EmployeeDetailPageUI {
     public static final String COMMENTS_TEXTBOX_SALARY_FORM = "//textarea[@id='salary_comments']";
 
     //** Job Tab
-    public static final String JOB_TITLE_DROPDPWN_JOB_FORM = "";
-    public static final String EMPLOYEE_STATUS_DROPDPWN_JOB_FORM = "";
-    public static final String JOB_CATEGORY_TEXTBOX_JOB_FORM = "";
-    public static final String JOIN_DATE_TEXTBOX_JOB_FORM = "";
-    public static final String SUB_UNIT_DROPDPWN_JOB_FORM = "";
-    public static final String LOCATION_DROPDPWN_JOB_FORM = "";
-    public static final String START_DATE_TEXTBOX_JOB_FORM = "";
-    public static final String END_DATE_TEXTBOX_JOB_FORM = "";
+    public static final String JOB_TITLE_DROPDPWN_JOB_FORM = "//select[@id='job_job_title']";
+    public static final String EMPLOYMENT_STATUS_DROPDPWN_JOB_FORM = "//select[@id='job_emp_status']";
+    public static final String JOB_CATEGORY_DROPDOWN_JOB_FORM = "//select[@id='job_eeo_category']";
+    public static final String JOIN_DATE_TEXTBOX_JOB_FORM = "//input[@id='job_joined_date']";
+    public static final String SUB_UNIT_DROPDPWN_JOB_FORM = "//select[@id='job_sub_unit']";
+    public static final String OPTION_SUB_UNIT_DROPDPWN_JOB_FORM = "//select[@id='job_sub_unit']/option";
+    public static final String LOCATION_DROPDPWN_JOB_FORM = "//select[@id='job_location']";
+    public static final String START_DATE_TEXTBOX_JOB_FORM = "//input[@id='job_contract_start_date']";
+    public static final String END_DATE_TEXTBOX_JOB_FORM = "//input[@id='job_contract_end_date']";
 
+    //** Report-to Tab
+    public static final String NAME_SUPERVISOR_TEXTBOX_ADD_SUPERVISOR_FORM = "//input[@id='reportto_supervisorName_empName']";
+    public static final String REPORTING_METHOD_DROPDOWN_ADD_SUPERVISOR_FORM = "//select[@id='reportto_reportingMethodType']";
 }
