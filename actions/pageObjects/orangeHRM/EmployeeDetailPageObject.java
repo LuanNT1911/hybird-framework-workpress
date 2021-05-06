@@ -3,6 +3,7 @@ package pageObjects.orangeHRM;
 import commons.BasePage;
 import org.openqa.selenium.WebDriver;
 import pageUIs.orangeHRM.EmployeeDetailPageUI;
+import pageUIs.orangeHRM.OrangeHRMBasePageUI;
 
 public class EmployeeDetailPageObject extends BasePage {
     WebDriver driver;
@@ -84,6 +85,7 @@ public class EmployeeDetailPageObject extends BasePage {
     public void enterToDateOfBirhtTextboxAtPersonalDetailsForm(String dob) {
         waitForElementVisible(driver, EmployeeDetailPageUI.DATE_OF_BIRTH_TEXTBOX_PERSONAL_FORM);
         sendkeyToElement(driver, EmployeeDetailPageUI.DATE_OF_BIRTH_TEXTBOX_PERSONAL_FORM, dob);
+//        clickToElement(driver, EmployeeDetailPageUI.DATE_OF_BIRTH_TEXTBOX_PERSONAL_FORM + OrangeHRMBasePageUI.ICON_DATE_TIME_PICKER_FOLLOWING_SIBLING);
     }
 
     public String getSuccessMessageAtPersonalDetailsForm() {
@@ -164,6 +166,7 @@ public class EmployeeDetailPageObject extends BasePage {
     public void enterToJoinedDateAtJobForm(String joinedDate) {
         waitForElementVisible(driver, EmployeeDetailPageUI.JOIN_DATE_TEXTBOX_JOB_FORM);
         sendkeyToElement(driver, EmployeeDetailPageUI.JOIN_DATE_TEXTBOX_JOB_FORM, joinedDate);
+        clickToElement(driver, EmployeeDetailPageUI.JOIN_DATE_TEXTBOX_JOB_FORM + OrangeHRMBasePageUI.ICON_DATE_TIME_PICKER_FOLLOWING_SIBLING);
     }
 
     public void selectSubUnitAtJobForm(String subUnit) {
@@ -180,11 +183,13 @@ public class EmployeeDetailPageObject extends BasePage {
     public void enterToStartDateAtJobForm(String startDate) {
         waitForElementVisible(driver, EmployeeDetailPageUI.START_DATE_TEXTBOX_JOB_FORM);
         sendkeyToElement(driver, EmployeeDetailPageUI.START_DATE_TEXTBOX_JOB_FORM, startDate);
+//        clickToElement(driver, EmployeeDetailPageUI.START_DATE_TEXTBOX_JOB_FORM + OrangeHRMBasePageUI.ICON_DATE_TIME_PICKER_FOLLOWING_SIBLING);
     }
 
     public void enterToEndDateAtJobForm(String endDate) {
         waitForElementVisible(driver, EmployeeDetailPageUI.END_DATE_TEXTBOX_JOB_FORM);
         sendkeyToElement(driver, EmployeeDetailPageUI.END_DATE_TEXTBOX_JOB_FORM, endDate);
+//        clickToElement(driver, EmployeeDetailPageUI.END_DATE_TEXTBOX_JOB_FORM + OrangeHRMBasePageUI.ICON_DATE_TIME_PICKER_FOLLOWING_SIBLING);
     }
 
     public String getJobTitleAtJobForm() {

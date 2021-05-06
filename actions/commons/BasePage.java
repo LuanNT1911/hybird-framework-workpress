@@ -19,6 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class BasePage {
     private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
     private long longTimeout = GlobalConstants.LONG_TIMEOUT;
+    private WebDriverWait explicitWait;
 
     public void openPageUrl(WebDriver driver, String pageUrl) {
         driver.get(pageUrl);
@@ -168,7 +169,7 @@ public class BasePage {
         clickToElement(driver, parentLocator);
         sleepInSeconds(1);
 
-        WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+        explicitWait = new WebDriverWait(driver, longTimeout);
         List<WebElement> allItems = explicitWait
                 .until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByXpath(childItemLocator)));
 
@@ -179,7 +180,7 @@ public class BasePage {
                 sleepInSeconds(1);
 
                 clickToElement(item);
-                sleepInSeconds(1);
+//                sleepInSeconds(1);
                 break;
             }
         }
@@ -378,7 +379,7 @@ public class BasePage {
     }
 
     public boolean areJQueryAndJSLoadedSuccess(WebDriver driver) {
-        WebDriverWait explicitWait = new WebDriverWait(driver, 15);
+        explicitWait = new WebDriverWait(driver, 15);
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 
         ExpectedCondition<Boolean> jQueryLoad = new ExpectedCondition<Boolean>() {
@@ -417,41 +418,41 @@ public class BasePage {
     }
 
     public void waitForElementVisible(WebDriver driver, String locator) {
-        WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+        explicitWait = new WebDriverWait(driver, longTimeout);
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByXpath(locator)));
     }
 
     public void waitForElementVisible(WebDriver driver, String dynamicLocator, String... param) {
         String locator = getDynamicLocator(dynamicLocator, param);
-        WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+        explicitWait = new WebDriverWait(driver, longTimeout);
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByXpath(locator)));
     }
 
     public void waitForListElementVisible(WebDriver driver, String locator) {
-        WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+        explicitWait = new WebDriverWait(driver, longTimeout);
         explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByXpath(locator)));
     }
 
     public void waitForElementInvisible(WebDriver driver, String locator) {
-        WebDriverWait explicitWait = new WebDriverWait(driver, shortTimeout);
+        explicitWait = new WebDriverWait(driver, shortTimeout);
         overrideGlobalTimeout(driver, shortTimeout);
         explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(locator)));
         overrideGlobalTimeout(driver, longTimeout);
     }
 
     public void waitForElementClickable(WebDriver driver, String locator) {
-        WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+        explicitWait = new WebDriverWait(driver, longTimeout);
         explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
     }
 
     public void waitForElementClickable(WebDriver driver, String dynamicLocator, String... param) {
         String locator = getDynamicLocator(dynamicLocator, param);
-        WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+        explicitWait = new WebDriverWait(driver, longTimeout);
         explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
     }
 
     public void waitForPageLoadingCompleted(WebDriver driver) {
-        WebDriverWait explicitWait = new WebDriverWait(driver, 15);
+        explicitWait = new WebDriverWait(driver, 15);
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 
         ExpectedCondition<Boolean> jQueryLoad = new ExpectedCondition<Boolean>() {
@@ -554,6 +555,7 @@ public class BasePage {
      * */
 
     public void openDynamicMenuPage(WebDriver driver, String pageName) {
+        sleepInSeconds(1);
         waitForElementClickable(driver, OrangeHRMBasePageUI.DYNAMIC_MENU_LINK, pageName);
         clickToElement(driver, OrangeHRMBasePageUI.DYNAMIC_MENU_LINK, pageName);
     }
@@ -566,11 +568,14 @@ public class BasePage {
     public void clickToButtonByNameAtFormHeader(WebDriver driver, String headerName, String buttonName) {
         waitForElementClickable(driver, OrangeHRMBasePageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, headerName, buttonName);
         clickToElement(driver, OrangeHRMBasePageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, headerName, buttonName);
+//        if(buttonName.equalsIgnoreCase("Search")){
+//            waitForElementInvisible(driver, OrangeHRMBasePageUI.TEXTBOX_LOADING);
+//        }
     }
 
     public boolean isInformationInTableAtColumnNameIndexAndRowIndex(WebDriver driver, String tableId, String columnName, String rowIndex, String expectedValue) {
         int columnNameIndex = getElementSize(driver, OrangeHRMBasePageUI.DYNAMIC_TABLE_COLUMN_NAME_PRECEDING_SIBLING, tableId, columnName) + 1;
         String cellValue = getElementText(driver, OrangeHRMBasePageUI.CELL_VALUE_MIX_BY_COLUMN_AND_ROW_INDEX, tableId, rowIndex, String.valueOf(columnNameIndex));
-        return expectedValue.equals(cellValue);
+        return cellValue.equals(expectedValue.trim());
     }
 }

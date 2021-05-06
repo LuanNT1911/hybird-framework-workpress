@@ -8,4 +8,6 @@ public class OrangeHRMBasePageUI {
     public static final String CELL_VALUE_MIX_BY_COLUMN_AND_ROW_INDEX = "//table[@id='%s']//tr[%s]/td[%s]";
     public static final String PASSWORD_TEXTBOX = "//input[@id='txtPassword']";
     public static final String LOGIN_BUTTON = "//input[@id='btnLogin']";
+    public static final String ICON_DATE_TIME_PICKER_FOLLOWING_SIBLING = "/following-sibling::img[@class='ui-datepicker-trigger']";
+    public static final String TEXTBOX_LOADING = "//input[@class='ac_loading']";
 }

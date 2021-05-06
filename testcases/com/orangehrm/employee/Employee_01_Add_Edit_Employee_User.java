@@ -224,11 +224,11 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
         log.info("Edit Employee [Job] - Step 06: Select 'Sub Unit' dropdown with value: " + subUnit);
         employeeDetailPage.selectSubUnitAtJobForm(subUnit);
 
-        log.info("Edit Employee [Job] - Step 07: Enter to 'Joined Date' textbox with value: " + joinedDate);
-        employeeDetailPage.enterToJoinedDateAtJobForm(joinedDate);
-
-        log.info("Edit Employee [Job] - Step 08: Select 'Location' dropdown with value: " + location);
+        log.info("Edit Employee [Job] - Step 07: Select 'Location' dropdown with value: " + location);
         employeeDetailPage.selectLocationAtJobForm(location);
+
+        log.info("Edit Employee [Job] - Step 08: Enter to 'Joined Date' textbox with value: " + joinedDate);
+        employeeDetailPage.enterToJoinedDateAtJobForm(joinedDate);
 
         log.info("Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value: " + startDate);
         employeeDetailPage.enterToStartDateAtJobForm(startDate);
@@ -296,9 +296,13 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
     @Test
     public void Employee_07_Search_User() {
         log.info("Search User - Step 01: Navigate to Employee List");
+//        dashboardPage.openDynamicMenuPage(driver, "PIM");
         employeeDetailPage.openDynamicMenuPage(driver, "PIM");
         employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
 
+//        employeeID = "0282";
+//        editFirstName = "Future85708";
+//        editLastName = "Grab92690";
         String employeeName = editFirstName + " " + editLastName;
 
         //** Searching with Employee Name
@@ -473,45 +477,9 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
         verifyTrue(employeeListPage.isInformationInTableAtColumnNameIndexAndRowIndex(driver, "resultTable", "Sub Unit", "1", subUnit));
         verifyTrue(employeeListPage.isInformationInTableAtColumnNameIndexAndRowIndex(driver, "resultTable", "Supervisor", "1", nameSupervisor));
 
-        log.info("Search User - Step 42: Click to 'Reset' button at 'Employee Information' form");
-        employeeListPage.clickToButtonByNameAtFormHeader(driver, "Employee Information", "Reset");
-
-
-
-
-
-        log.info("Search User - Step 01: Enter to 'Id' textbox with value: " + employeeID);
-        employeeListPage.enterToId(employeeID);
-
-        log.info("Search User - Step 01: Select 'Employee Status' dropdown with value: " + employmentStatus);
-        employeeListPage.selectEmployeeStatus(employmentStatus);
-
-        log.info("Search User - Step 01: Select 'Include' dropdown with value: 'Current Employees Only'");
-        employeeListPage.selectInclude("Current Employees Only");
-
-        log.info("Search User - Step 01: Select 'Include' dropdown with value: 'Current and Past Employees'");
-        employeeListPage.selectInclude("Current and Past Employees");
-
-        log.info("Search User - Step 01: Select 'Include' dropdown with value: 'Past Employees Only'");
-        employeeListPage.selectInclude("Past Employees Only");
-
-        log.info("Search User - Step 01: Verify 'No Records Found' text is displayed");
-        verifyTrue(employeeListPage.isNoRecordFoundDisplayed("resultTable"));
-
-        log.info("Search User - Step 01: Enter to 'Supervisor' textbox with value: " + nameSupervisor);
-        employeeListPage.enterToSupervisor(nameSupervisor);
-
-        log.info("Search User - Step 01: Select 'Job Title' textbox with value: " + jobTitle);
-        employeeListPage.selectJobTitle(jobTitle);
-
-        log.info("Search User - Step 01: Select 'Sub Unit' textbox with value: " + subUnit);
-        employeeListPage.selectSubUnit(subUnit);
-
-        log.info("Search User - Step 01: Click to 'Search' button at 'Employee Information' form");
-        employeeListPage.clickToButtonByNameAtFormHeader(driver, "Employee Information", "Search");
-
-        log.info("Search User - Step 01: Click to 'Reset' button at 'Employee Information' form");
-        employeeListPage.clickToButtonByNameAtFormHeader(driver, "Employee Information", "Reset");
+//
+//        log.info("Search User - Step 01: Enter to 'Id' textbox with value: " + employeeID);
+//        employeeListPage.enterToId(employeeID);
 
     }
 

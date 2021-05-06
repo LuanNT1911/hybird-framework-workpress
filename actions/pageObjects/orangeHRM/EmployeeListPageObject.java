@@ -53,7 +53,7 @@ public class EmployeeListPageObject extends BasePage {
         selectItemInDropdownList(driver, EmployeeListPageUI.SUB_UNIT_DROPDOWN, subUnit);
     }
 
-    public boolean isNoRecordFoundDisplayed(String tableID){
+    public boolean isNoRecordFoundDisplayed(String tableID) {
         waitForElementVisible(driver, EmployeeListPageUI.NO_RECORD_FOUND_TEXT_AT_TABLE_ID, tableID);
         return isElementDisplayed(driver, EmployeeListPageUI.NO_RECORD_FOUND_TEXT_AT_TABLE_ID, tableID);
     }
