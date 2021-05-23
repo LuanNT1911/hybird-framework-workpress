@@ -67,7 +67,7 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
         dashboardPage = loginPage.clickToLoginButton();
     }
 
-    @Test
+    @Test(priority = 1)
     public void Employee_01_Add_Employee() {
         log.info("Add Employee - Step 01: Navigate to Employee List");
         dashboardPage.openDynamicMenuPage(driver, "PIM");
@@ -102,7 +102,7 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 
     }
 
-    @Test
+    @Test(dependsOnMethods = "Employee_01_Add_Employee")
     public void Employee_02_Edit_Employee_By_Personal() {
         log.info("Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form");
         employeeDetailPage.clickToButtonByNameAtFormHeader(driver, "Personal Details", "Edit");
@@ -156,7 +156,7 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
         verifyEquals(employeeDetailPage.getDateOfBirhtDisplayedAtPersonalForm(), editDOB);
     }
 
-    @Test
+    @Test(dependsOnMethods = "Employee_01_Add_Employee")
     public void Employee_03_Edit_Employee_By_Salary() {
         log.info("Edit Employee [Salary] - Step 01: Navigate to 'Salary' tab");
         employeeDetailPage.openSidebarTabByName(driver, "Salary");
@@ -204,7 +204,7 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
         verifyTrue(employeeDetailPage.isInformationInTableAtColumnNameIndexAndRowIndex(driver, "tblSalary", "Show Direct Deposit Details", "1", ""));
     }
 
-    @Test
+    @Test(dependsOnMethods = "Employee_01_Add_Employee")
     public void Employee_04_Edit_Employee_By_Job() {
         log.info("Edit Employee [Job] - Step 01: Navigate to 'Job' tab");
         employeeDetailPage.openSidebarTabByName(driver, "Job");
@@ -264,7 +264,7 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
         verifyEquals(employeeDetailPage.getEndDateAtJobForm(), endDate);
     }
 
-    @Test
+    @Test(dependsOnMethods = "Employee_01_Add_Employee")
     public void Employee_05_Edit_Employee_By_Report_To() {
         log.info("Edit Employee [Report-to] - Step 01: Navigate to 'Report-to' tab");
         employeeDetailPage.openSidebarTabByName(driver, "Report-to");
@@ -293,7 +293,7 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 
     }
 
-    @Test
+    @Test(dependsOnMethods = "Employee_01_Add_Employee")
     public void Employee_07_Search_User() {
         log.info("Search User - Step 01: Navigate to Employee List");
 //        dashboardPage.openDynamicMenuPage(driver, "PIM");
@@ -483,7 +483,7 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 
     }
 
-    @Test
+    @Test(dependsOnMethods = "Employee_01_Add_Employee")
     public void Employee_09_Delete_User() {
 
     }
@@ -499,6 +499,6 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 
     @AfterClass(alwaysRun = true)
     public void afterClass() {
-//        closeBrowserAndDriver(driver);
+        closeBrowserAndDriver(driver);
     }
 }

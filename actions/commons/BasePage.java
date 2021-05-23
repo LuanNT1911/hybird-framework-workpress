@@ -12,8 +12,9 @@ import pageObjects.nopCommerce.PageGeneratorManager;
 import pageUIs.nopCommerce.BasePageUI;
 import pageUIs.orangeHRM.OrangeHRMBasePageUI;
 
-import java.util.List;
-import java.util.Set;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class BasePage {
@@ -549,6 +550,123 @@ public class BasePage {
         return isElementSelected(driver, BasePageUI.RADIO_BUTTON_BY_ID, radioButtonId);
     }
 
+    public boolean isDataSortAscending(WebDriver driver, String locator) {
+        List<WebElement> elementList = driver.findElements(getByXpath(locator));
+
+        ArrayList<String> dataList = new ArrayList<String>();
+        for (WebElement element : elementList) {
+            dataList.add(element.getText());
+        }
+
+        ArrayList<String> sortedList = new ArrayList<String>();
+        for (String child : dataList) {
+            sortedList.add(child);
+        }
+        Collections.sort(sortedList);
+
+        return sortedList.equals(dataList);
+    }
+
+    public boolean isDataSortDesceding(WebDriver driver, String locator) {
+        List<WebElement> elementList = driver.findElements(getByXpath(locator));
+
+        ArrayList<String> dataList = new ArrayList<String>();
+        for (WebElement element : elementList) {
+            dataList.add(element.getText());
+        }
+
+        ArrayList<String> sortedList = new ArrayList<String>();
+        for (String child : dataList) {
+            sortedList.add(child);
+        }
+        Collections.sort(sortedList);
+        Collections.reverse(sortedList);
+//        Collections.sort(dataList, Collections.reverseOrder());
+
+        return sortedList.equals(dataList);
+    }
+
+    public boolean isDataFloatSortAscending(WebDriver driver, String locator) {
+        List<WebElement> elementList = driver.findElements(getByXpath(locator));
+
+        ArrayList<Float> dataList = new ArrayList<Float>();
+        for (WebElement element : elementList) {
+            dataList.add(Float.parseFloat(element.getText().replace("$", "")));
+        }
+
+        ArrayList<Float> sortedList = new ArrayList<Float>();
+        for (Float child : dataList) {
+            sortedList.add(child);
+        }
+        Collections.sort(sortedList);
+
+        return sortedList.equals(dataList);
+    }
+
+    public boolean isDataFloatSortDescending(WebDriver driver, String locator) {
+        List<WebElement> elementList = driver.findElements(getByXpath(locator));
+
+        ArrayList<Float> dataList = new ArrayList<Float>();
+        for (WebElement element : elementList) {
+            dataList.add(Float.parseFloat(element.getText().replace("$", "")));
+        }
+
+        ArrayList<Float> sortedList = new ArrayList<Float>();
+        for (Float child : dataList) {
+            sortedList.add(child);
+        }
+        Collections.sort(sortedList);
+        Collections.reverse(sortedList);
+
+        return sortedList.equals(dataList);
+    }
+
+    public boolean isDataDateSortAscending(WebDriver driver, String locator) {
+        List<WebElement> elementList = driver.findElements(getByXpath(locator));
+
+        ArrayList<Date> dataList = new ArrayList<Date>();
+        for (WebElement element : elementList) {
+            dataList.add(convertStringToDate(element.getText()));
+        }
+
+        ArrayList<Date> sortedList = new ArrayList<Date>();
+        for (Date child : dataList) {
+            sortedList.add(child);
+        }
+        Collections.sort(sortedList);
+
+        return sortedList.equals(dataList);
+    }
+
+    public boolean isDataDateSortDescending(WebDriver driver, String locator) {
+        List<WebElement> elementList = driver.findElements(getByXpath(locator));
+
+        ArrayList<Date> dataList = new ArrayList<Date>();
+        for (WebElement element : elementList) {
+            dataList.add(convertStringToDate(element.getText()));
+        }
+
+        ArrayList<Date> sortedList = new ArrayList<Date>();
+        for (Date child : dataList) {
+            sortedList.add(child);
+        }
+        Collections.sort(sortedList);
+        Collections.reverse(sortedList);
+
+        return sortedList.equals(dataList);
+    }
+
+    public Date convertStringToDate(String dateInString) {
+        dateInString = dateInString.replace(",", "");
+        SimpleDateFormat formatter = new SimpleDateFormat("MMM dd yyyy");
+        Date date = null;
+        try {
+            date = formatter.parse(dateInString);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return date;
+    }
 
     /*
      * Orange HRM Project
