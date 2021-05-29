@@ -1,189 +1,26 @@
-[2021-05-08 15:58:17,576] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Enter to Username textbox
-[2021-05-08 15:58:17,840] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 02: Enter to Password textbox
-[2021-05-08 15:58:17,982] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Pre-Condition - Step 01: Click to Login button
-[2021-05-08 15:58:20,802] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 01: Navigate to Employee List
-[2021-05-08 15:58:25,101] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 02: Click to Add button
-[2021-05-08 15:58:25,914] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 03: Enter to FirstName textbox: Now 46368
-[2021-05-08 15:58:26,079] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 04: Enter to LastName textbox: Beamin 5540
-[2021-05-08 15:58:26,298] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 05: Enter to Save button
-[2021-05-08 15:58:28,843] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 06: Verify FullName header is displayed: Now 46368 Beamin 5540
-[2021-05-08 15:58:28,944] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:28,948] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 07: Verify FirstName is displayed: Now 46368
-[2021-05-08 15:58:29,043] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:29,043] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 08: Verify LastName is displayed: Beamin 5540
-[2021-05-08 15:58:29,123] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:29,123] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Add Employee - Step 09: Verify Employee ID is displayed: 0283
-[2021-05-08 15:58:29,220] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:29,393] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form
-[2021-05-08 15:58:29,753] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 02: Enter new info to 'Firstname' textbox with value: Future51171
-[2021-05-08 15:58:29,879] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 03: Enter new infor to 'Lastname' textbox with value: Grab58260
-[2021-05-08 15:58:30,005] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 04: Enter new infor to 'SSN Number' textbox with value: 329-68-2055
-[2021-05-08 15:58:30,106] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 05: Click to 'Gender' radio with value: Male
-[2021-05-08 15:58:30,407] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 06: Select to 'Marital Status' dropdown with value: Single
-[2021-05-08 15:58:30,793] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 07: Select to 'Nationality' dropdown with value: Vietnamese
-[2021-05-08 15:58:31,120] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 08: Enter new info to 'Date of Birth' textbox with value: 1994-11-19
-[2021-05-08 15:58:31,292] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 09: Click to 'Save' button at 'Personal Details' form
-[2021-05-08 15:58:33,840] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 10: Verify Success message displayed with value 'Successfully Saved'
-[2021-05-08 15:58:33,942] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:33,942] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 11: Verify 'Firstname' textbox is edited successfully
-[2021-05-08 15:58:34,029] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:34,029] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 12: Verify 'Lastname' textbox is edited successfully
-[2021-05-08 15:58:34,139] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:34,139] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 13: Verify 'SSN Number' textbox is edited successfully
-[2021-05-08 15:58:34,217] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:34,217] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 14: Verify 'Gender' radio is edited successfully
-[2021-05-08 15:58:34,276] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:34,277] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 15: Verify 'Marital Status' dropdown is edited successfully
-[2021-05-08 15:58:34,402] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:34,402] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 16: Verify 'Nationality' dropdown is edited successfully
-[2021-05-08 15:58:35,237] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:35,237] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Personal] - Step 17: Verify 'Date of Birth' textbox is edited successfully
-[2021-05-08 15:58:35,318] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:35,955] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 01: Navigate to 'Salary' tab
-[2021-05-08 15:58:37,196] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 02: Click to 'Add' button at 'Assigned Salary Components' form
-[2021-05-08 15:58:37,529] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 03: Select 'Pay Grade' dropdown with value: Grade 1
-[2021-05-08 15:58:37,896] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox with value: Manual 1911
-[2021-05-08 15:58:38,002] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 05: Select 'Pay Frequency' dropdown with value: Hourly
-[2021-05-08 15:58:38,364] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 06: Select 'Currency' dropdown with value: United States Dollar
-[2021-05-08 15:58:38,692] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 07: Enter to 'Amount' textbox with value: 55000
-[2021-05-08 15:58:38,779] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 08: Enter to 'Comments' textbox with value: Testing
-[2021-05-08 15:58:38,894] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 09: Click to 'Save' button at 'Add Salary Component' form
-[2021-05-08 15:58:40,373] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 10: Verify 'Salary Component' value at table 'Add Salary Component' with value: Manual 1911
-[2021-05-08 15:58:40,403] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:40,404] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 11: Verify 'Pay Frequency' value at table 'Add Salary Component' with value: Hourly
-[2021-05-08 15:58:40,435] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:40,435] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 12: Verify 'Currency' value at table 'Add Salary Component' with value: United States Dollar
-[2021-05-08 15:58:40,460] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:40,460] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 11: Verify 'Amount' value at table 'Add Salary Component' with value: 55000
-[2021-05-08 15:58:40,495] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:40,495] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 11: Verify 'Comments' value at table 'Add Salary Component' with value: Testing
-[2021-05-08 15:58:40,522] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:40,523] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Salary] - Step 11: Verify 'Show Direct Deposit Details' value at table 'Add Salary Component' with value: 
-[2021-05-08 15:58:40,558] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:40,574] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 01: Navigate to 'Job' tab
-[2021-05-08 15:58:41,593] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 02: Click to 'Edit' button at 'Job' form
-[2021-05-08 15:58:41,917] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 03: Select 'Job Title' dropdown with value: QA Engineer
-[2021-05-08 15:58:42,256] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 04: Select 'Employment Status' dropdown with value: Full-Time Contract
-[2021-05-08 15:58:42,615] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 05: Select 'Job Category' dropdown with value: Technicians
-[2021-05-08 15:58:42,943] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 06: Select 'Sub Unit' dropdown with value:   Quality Assurance
-[2021-05-08 15:58:45,591] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 07: Select 'Location' dropdown with value: New York Sales Office
-[2021-05-08 15:58:45,918] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 08: Enter to 'Joined Date' textbox with value: 2020-09-07
-[2021-05-08 15:58:46,441] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value: 2020-11-07
-[2021-05-08 15:58:46,631] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 10: Enter to 'End Date' textbox with value: 2021-11-07
-[2021-05-08 15:58:46,786] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 11: Click to 'Save' button at 'Job' form
-[2021-05-08 15:58:49,032] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 12: Verify 'Job Title' dropdown is edited successfully
-[2021-05-08 15:58:49,219] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:49,219] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 13: Verify 'Employee Status' dropdown is edited successfully
-[2021-05-08 15:58:49,338] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:49,338] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 12: Verify 'Job Category' textbox is edited successfully
-[2021-05-08 15:58:49,482] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:49,482] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 12: Verify 'Joined Date' textbox is edited successfully
-[2021-05-08 15:58:49,550] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:49,550] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 12: Verify 'Sub Unit' dropdown is edited successfully
-[2021-05-08 15:58:49,663] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:49,663] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 12: Verify 'Location' dropdown is edited successfully
-[2021-05-08 15:58:49,773] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:49,773] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 12: Verify 'Start Date' textbox is edited successfully
-[2021-05-08 15:58:49,835] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:49,835] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Job] - Step 12: Verify 'End Date' textbox is edited successfully
-[2021-05-08 15:58:49,912] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:49,920] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Report-to] - Step 01: Navigate to 'Report-to' tab
-[2021-05-08 15:58:51,303] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Report-to] - Step 02: Click to 'Edit' button at 'Assigned Supervisors' form
-[2021-05-08 15:58:51,638] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Report-to] - Step 03: Enter to 'Name' textbox with value: Aaliyah Haq
-[2021-05-08 15:58:51,745] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Report-to] - Step 04: Select 'Reporting Method ' dropdown with value: Direct
-[2021-05-08 15:58:52,089] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Report-to] - Step 05: Click to 'Save' button at 'Add Supervisor' form
-[2021-05-08 15:58:53,610] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Report-to] - Step 06: Verify 'Name' value at table 'Assigned Supervisors' with value: Aaliyah Haq
-[2021-05-08 15:58:53,654] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:53,654] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Edit Employee [Report-to] - Step 07: Verify 'Reporting Method' value at table 'Assigned Supervisors' with value: Direct
-[2021-05-08 15:58:53,695] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:53,737] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 01: Navigate to Employee List
-[2021-05-08 15:58:55,939] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 01: Enter to 'Employee Name' textbox with value: Future51171 Grab58260
-[2021-05-08 15:58:57,061] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 02: Click to 'Search' button at 'Employee Information' form
-[2021-05-08 15:58:57,674] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 03: Verify Employee Information is displayed correctly
-[2021-05-08 15:58:57,743] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:57,782] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:57,820] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:57,856] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:57,885] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:57,921] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:57,921] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 04: Enter to 'Id' textbox with value: 0283
-[2021-05-08 15:58:58,036] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 05: Click to 'Search' button at 'Employee Information' form
-[2021-05-08 15:58:58,665] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 06: Verify Employee Information is displayed correctly
-[2021-05-08 15:58:58,722] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:58,758] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:58,783] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:58,818] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:58,845] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:58,881] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:58:58,881] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 07: Click to 'Reset' button at 'Employee Information' form
-[2021-05-08 15:59:00,193] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 08: Enter to 'Employee Name' textbox with value: Future51171 Grab58260
-[2021-05-08 15:59:01,315] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 09: Select 'Employment Status' with value: Full-Time Contract
-[2021-05-08 15:59:01,657] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 10: Click to 'Search' button at 'Employee Information' form
-[2021-05-08 15:59:02,258] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 11: Verify Employee Information is displayed correctly
-[2021-05-08 15:59:02,317] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:02,355] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:02,397] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:02,423] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:02,459] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:02,492] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:02,492] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 12: Click to 'Reset' button at 'Employee Information' form
-[2021-05-08 15:59:03,417] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 13: Enter to 'Employee Name' textbox with value: Future51171 Grab58260
-[2021-05-08 15:59:04,537] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 14: Select 'Include' dropdown with value: 'Current Employees Only'
-[2021-05-08 15:59:04,633] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 15: Click to 'Search' button at 'Employee Information' form
-[2021-05-08 15:59:05,241] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 16: Verify Employee Information is displayed correctly
-[2021-05-08 15:59:05,316] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:05,356] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:05,398] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:05,427] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:05,461] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:05,497] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:05,498] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 17: Click to 'Reset' button at 'Employee Information' form
-[2021-05-08 15:59:06,385] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 18: Enter to 'Employee Name' textbox with value: Future51171 Grab58260
-[2021-05-08 15:59:07,498] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 19: Select 'Include' dropdown with value: 'Current and Past Employees'
-[2021-05-08 15:59:07,835] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 20: Click to 'Search' button at 'Employee Information' form
-[2021-05-08 15:59:08,457] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 21: Verify Employee Information is displayed correctly
-[2021-05-08 15:59:08,522] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:08,578] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:08,604] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:08,651] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:08,702] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:08,741] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:08,741] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 22: Click to 'Reset' button at 'Employee Information' form
-[2021-05-08 15:59:09,802] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 23: Enter to 'Employee Name' textbox with value: Future51171 Grab58260
-[2021-05-08 15:59:10,922] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 24: Select 'Include' dropdown with value: 'Past Employees Only'
-[2021-05-08 15:59:11,262] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 25: Click to 'Search' button at 'Employee Information' form
-[2021-05-08 15:59:11,968] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 26: Verify Employee Information is displayed correctly
-[2021-05-08 15:59:12,103] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:12,103] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 27: Click to 'Reset' button at 'Employee Information' form
-[2021-05-08 15:59:13,455] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 28: Enter to 'Employee Name' textbox with value: Future51171 Grab58260
-[2021-05-08 15:59:14,576] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 29: Enter to 'Supervisor' textbox with value: Aaliyah Haq
-[2021-05-08 15:59:14,672] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 30: Click to 'Search' button at 'Employee Information' form
-[2021-05-08 15:59:15,296] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 31: Verify Employee Information is displayed correctly
-[2021-05-08 15:59:15,363] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:15,399] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:15,447] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:15,485] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:15,522] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:15,555] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:15,556] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 32: Click to 'Reset' button at 'Employee Information' form
-[2021-05-08 15:59:16,265] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 33: Enter to 'Employee Name' textbox with value: Future51171 Grab58260
-[2021-05-08 15:59:17,368] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 34: Select 'Job Title' textbox with value: QA Engineer
-[2021-05-08 15:59:17,685] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 35: Click to 'Search' button at 'Employee Information' form
-[2021-05-08 15:59:18,313] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 36: Verify Employee Information is displayed correctly
-[2021-05-08 15:59:18,384] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:18,423] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:18,459] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:18,483] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:18,519] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:18,553] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:18,553] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 37: Click to 'Reset' button at 'Employee Information' form
-[2021-05-08 15:59:19,981] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 38: Enter to 'Employee Name' textbox with value: Future51171 Grab58260
-[2021-05-08 15:59:21,105] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 39: Select 'Sub Unit' textbox with value:   Quality Assurance
-[2021-05-08 15:59:36,493] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 40: Click to 'Search' button at 'Employee Information' form
-[2021-05-08 15:59:37,068] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] - Search User - Step 41: Verify Employee Information is displayed correctly
-[2021-05-08 15:59:37,138] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:37,166] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:37,199] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:37,229] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:37,260] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
-[2021-05-08 15:59:37,296] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:28:57,224] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Opening Register page
+[2021-05-29 22:28:59,586] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Select to Gender checkbox: Male
+[2021-05-29 22:28:59,886] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 02: Input to First Name textbox: Automation
+[2021-05-29 22:28:59,983] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 03: Input to Last Name textbox: Practive
+[2021-05-29 22:29:00,092] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 04: Input to Email textbox: automation42207@gmail.com
+[2021-05-29 22:29:00,210] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 05: Input to Password textbox: 123456
+[2021-05-29 22:29:00,295] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-05-29 22:29:00,403] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 07: Click to Register button
+[2021-05-29 22:29:02,479] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 08: Verify success message is displayed
+[2021-05-29 22:29:02,554] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:29:02,556] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 09: Click to Log Out link
+[2021-05-29 22:29:04,297] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Click to Log in link
+[2021-05-29 22:29:05,295] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Input to Email textbox: automation42207@gmail.com
+[2021-05-29 22:29:06,413] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 02: Input to Password textbox: 123456
+[2021-05-29 22:29:06,500] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 03: Click to Log in button
+[2021-05-29 22:29:07,522] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 04: Verify My account link is displayed
+[2021-05-29 22:29:07,616] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:29:07,621] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 01: Click to My account link
+[2021-05-29 22:29:08,138] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-05-29 22:29:08,215] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:29:08,215] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 03: Verify Fist Name textbox is: Automation
+[2021-05-29 22:29:08,356] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:29:08,357] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 04: Verify Last Name textbox is:Practive
+[2021-05-29 22:29:08,435] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:29:08,435] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 05: Verify Email textbox is:automation42207@gmail.com
+[2021-05-29 22:29:08,496] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 

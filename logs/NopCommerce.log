@@ -4015,3 +4015,157 @@
 [2021-05-08 15:59:37,229] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
 [2021-05-08 15:59:37,260] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
 [2021-05-08 15:59:37,296] [INFO ] [com.orangehrm.employee.Employee_01_Add_Edit_Employee_User] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:11:41,756] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Opening Register page
+[2021-05-29 22:11:45,354] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Select to Gender checkbox: Male
+[2021-05-29 22:11:45,666] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 02: Input to First Name textbox: Automation
+[2021-05-29 22:11:45,781] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 03: Input to Last Name textbox: Practive
+[2021-05-29 22:11:45,885] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 04: Input to Email textbox: automation24324@gmail.com
+[2021-05-29 22:11:45,981] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 05: Input to Password textbox: 123456
+[2021-05-29 22:11:46,081] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-05-29 22:11:46,191] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 07: Click to Register button
+[2021-05-29 22:11:47,685] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 08: Verify success message is displayed
+[2021-05-29 22:11:47,786] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:11:47,791] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 09: Click to Log Out link
+[2021-05-29 22:11:49,899] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Click to Log in link
+[2021-05-29 22:11:50,533] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Input to Email textbox: automation24324@gmail.com
+[2021-05-29 22:11:51,646] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 02: Input to Password textbox: 123456
+[2021-05-29 22:11:51,748] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 03: Click to Log in button
+[2021-05-29 22:11:53,478] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 04: Verify My account link is displayed
+[2021-05-29 22:11:53,577] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:11:53,584] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 01: Click to My account link
+[2021-05-29 22:11:54,638] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-05-29 22:11:54,719] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:11:54,719] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 03: Verify Fist Name textbox is: Automation
+[2021-05-29 22:12:09,974] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - OS name = windows 10
+[2021-05-29 22:12:11,041] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - ---------- QUIT BROWSER SUCCESS ----------
+[2021-05-29 22:16:18,535] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Opening Register page
+[2021-05-29 22:16:20,904] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Select to Gender checkbox: Male
+[2021-05-29 22:16:21,201] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 02: Input to First Name textbox: Automation
+[2021-05-29 22:16:21,296] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 03: Input to Last Name textbox: Practive
+[2021-05-29 22:16:21,409] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 04: Input to Email textbox: automation94315@gmail.com
+[2021-05-29 22:16:21,519] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 05: Input to Password textbox: 123456
+[2021-05-29 22:16:21,603] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-05-29 22:16:21,726] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 07: Click to Register button
+[2021-05-29 22:16:22,549] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 08: Verify success message is displayed
+[2021-05-29 22:16:22,619] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:16:22,625] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 09: Click to Log Out link
+[2021-05-29 22:16:24,899] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Click to Log in link
+[2021-05-29 22:16:25,865] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Input to Email textbox: automation94315@gmail.com
+[2021-05-29 22:16:26,976] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 02: Input to Password textbox: 123456
+[2021-05-29 22:16:27,076] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 03: Click to Log in button
+[2021-05-29 22:16:29,158] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 04: Verify My account link is displayed
+[2021-05-29 22:16:29,261] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:16:29,288] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 01: Click to My account link
+[2021-05-29 22:16:29,851] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-05-29 22:16:29,923] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:16:29,923] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 03: Verify Fist Name textbox is: Automation
+[2021-05-29 22:16:45,123] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - OS name = windows 10
+[2021-05-29 22:16:46,170] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - ---------- QUIT BROWSER SUCCESS ----------
+[2021-05-29 22:18:03,465] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Opening Register page
+[2021-05-29 22:18:07,084] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Select to Gender checkbox: Male
+[2021-05-29 22:18:07,381] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 02: Input to First Name textbox: Automation
+[2021-05-29 22:18:07,473] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 03: Input to Last Name textbox: Practive
+[2021-05-29 22:18:07,578] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 04: Input to Email textbox: automation33693@gmail.com
+[2021-05-29 22:18:07,706] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 05: Input to Password textbox: 123456
+[2021-05-29 22:18:07,822] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-05-29 22:18:07,936] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 07: Click to Register button
+[2021-05-29 22:18:09,769] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 08: Verify success message is displayed
+[2021-05-29 22:18:09,839] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:18:09,839] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 09: Click to Log Out link
+[2021-05-29 22:18:10,964] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Click to Log in link
+[2021-05-29 22:18:11,750] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Input to Email textbox: automation33693@gmail.com
+[2021-05-29 22:18:12,855] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 02: Input to Password textbox: 123456
+[2021-05-29 22:18:12,944] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 03: Click to Log in button
+[2021-05-29 22:18:14,274] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 04: Verify My account link is displayed
+[2021-05-29 22:18:14,390] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:18:14,395] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 01: Click to My account link
+[2021-05-29 22:18:15,941] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-05-29 22:18:16,034] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:18:16,034] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 03: Verify Fist Name textbox is: Automation
+[2021-05-29 22:20:22,925] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Opening Register page
+[2021-05-29 22:20:24,855] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Select to Gender checkbox: Male
+[2021-05-29 22:20:25,152] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 02: Input to First Name textbox: Automation
+[2021-05-29 22:20:25,264] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 03: Input to Last Name textbox: Practive
+[2021-05-29 22:20:25,370] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 04: Input to Email textbox: automation79727@gmail.com
+[2021-05-29 22:20:25,480] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 05: Input to Password textbox: 123456
+[2021-05-29 22:20:25,581] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-05-29 22:20:25,676] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 07: Click to Register button
+[2021-05-29 22:20:27,942] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 08: Verify success message is displayed
+[2021-05-29 22:20:28,026] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:20:28,029] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 09: Click to Log Out link
+[2021-05-29 22:20:30,067] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Click to Log in link
+[2021-05-29 22:20:30,711] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Input to Email textbox: automation79727@gmail.com
+[2021-05-29 22:20:31,802] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 02: Input to Password textbox: 123456
+[2021-05-29 22:20:31,899] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 03: Click to Log in button
+[2021-05-29 22:20:33,855] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 04: Verify My account link is displayed
+[2021-05-29 22:20:33,979] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:20:33,986] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 01: Click to My account link
+[2021-05-29 22:20:34,555] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-05-29 22:20:34,636] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:20:34,637] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 03: Verify Fist Name textbox is: Automation
+[2021-05-29 22:22:23,231] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Opening Register page
+[2021-05-29 22:22:25,044] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Select to Gender checkbox: Male
+[2021-05-29 22:22:25,339] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 02: Input to First Name textbox: Automation
+[2021-05-29 22:22:25,433] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 03: Input to Last Name textbox: Practive
+[2021-05-29 22:22:25,541] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 04: Input to Email textbox: automation20254@gmail.com
+[2021-05-29 22:22:25,655] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 05: Input to Password textbox: 123456
+[2021-05-29 22:22:25,760] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-05-29 22:22:25,849] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 07: Click to Register button
+[2021-05-29 22:22:27,144] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 08: Verify success message is displayed
+[2021-05-29 22:22:27,211] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:22:27,214] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 09: Click to Log Out link
+[2021-05-29 22:22:28,650] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Click to Log in link
+[2021-05-29 22:22:29,601] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Input to Email textbox: automation20254@gmail.com
+[2021-05-29 22:22:30,708] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 02: Input to Password textbox: 123456
+[2021-05-29 22:22:30,798] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 03: Click to Log in button
+[2021-05-29 22:22:32,058] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 04: Verify My account link is displayed
+[2021-05-29 22:22:32,150] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:22:32,159] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 01: Click to My account link
+[2021-05-29 22:22:32,652] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-05-29 22:22:32,724] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:22:34,739] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 03: Verify Fist Name textbox is: Automation
+[2021-05-29 22:24:18,627] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Opening Register page
+[2021-05-29 22:24:21,227] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Select to Gender checkbox: Male
+[2021-05-29 22:24:21,524] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 02: Input to First Name textbox: Automation
+[2021-05-29 22:24:21,620] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 03: Input to Last Name textbox: Practive
+[2021-05-29 22:24:21,717] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 04: Input to Email textbox: automation81313@gmail.com
+[2021-05-29 22:24:21,825] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 05: Input to Password textbox: 123456
+[2021-05-29 22:24:21,924] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-05-29 22:24:22,004] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 07: Click to Register button
+[2021-05-29 22:24:23,147] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 08: Verify success message is displayed
+[2021-05-29 22:24:23,230] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:24:23,232] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 09: Click to Log Out link
+[2021-05-29 22:24:25,094] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Click to Log in link
+[2021-05-29 22:24:26,062] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Input to Email textbox: automation81313@gmail.com
+[2021-05-29 22:24:27,160] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 02: Input to Password textbox: 123456
+[2021-05-29 22:24:27,267] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 03: Click to Log in button
+[2021-05-29 22:24:28,584] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 04: Verify My account link is displayed
+[2021-05-29 22:24:28,673] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:24:28,714] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 01: Click to My account link
+[2021-05-29 22:24:29,562] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-05-29 22:28:57,224] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Opening Register page
+[2021-05-29 22:28:59,586] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 01: Select to Gender checkbox: Male
+[2021-05-29 22:28:59,886] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 02: Input to First Name textbox: Automation
+[2021-05-29 22:28:59,983] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 03: Input to Last Name textbox: Practive
+[2021-05-29 22:29:00,092] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 04: Input to Email textbox: automation42207@gmail.com
+[2021-05-29 22:29:00,210] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 05: Input to Password textbox: 123456
+[2021-05-29 22:29:00,295] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 06: Input to Confirm Password textbox: 123456
+[2021-05-29 22:29:00,403] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 07: Click to Register button
+[2021-05-29 22:29:02,479] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 08: Verify success message is displayed
+[2021-05-29 22:29:02,554] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:29:02,556] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Register - Step 09: Click to Log Out link
+[2021-05-29 22:29:04,297] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Click to Log in link
+[2021-05-29 22:29:05,295] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 01: Input to Email textbox: automation42207@gmail.com
+[2021-05-29 22:29:06,413] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 02: Input to Password textbox: 123456
+[2021-05-29 22:29:06,500] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 03: Click to Log in button
+[2021-05-29 22:29:07,522] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Login - Step 04: Verify My account link is displayed
+[2021-05-29 22:29:07,616] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:29:07,621] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 01: Click to My account link
+[2021-05-29 22:29:08,138] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 02: Verify Gender checkbox is checked: Male
+[2021-05-29 22:29:08,215] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:29:08,215] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 03: Verify Fist Name textbox is: Automation
+[2021-05-29 22:29:08,356] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:29:08,357] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 04: Verify Last Name textbox is:Practive
+[2021-05-29 22:29:08,435] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 
+[2021-05-29 22:29:08,435] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] - Customer - Step 05: Verify Email textbox is:automation42207@gmail.com
+[2021-05-29 22:29:08,496] [INFO ] [com.nopCommerce.users.Login_Page_Pattern_Object] -  -------------------------- PASSED -------------------------- 

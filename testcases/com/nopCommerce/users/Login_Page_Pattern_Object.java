@@ -1,6 +1,8 @@
 package com.nopCommerce.users;
 
+import User.UserDataTest;
 import commons.BaseTest;
+import commons.GlobalConstants;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
@@ -20,6 +22,7 @@ public class Login_Page_Pattern_Object extends BaseTest {
     LoginPageObject loginPage;
     RegisterPageObject registerPage;
     CustomerInforPageObject customerInforPage;
+    UserDataTest userData;
     //    PageGeneratorManager pageGenerator;
 
     String firstName = "Earn";
@@ -27,13 +30,19 @@ public class Login_Page_Pattern_Object extends BaseTest {
     String email = "earnshaw@gmail.com";
     String password = "123456";
     String gender = "Male";
+    String postFixEmail = getRandomNumber() + "@gmail.com";
 
     @Parameters({"browser", "url"})
     @BeforeClass
     public void BeforeClass(String browserName, String url) {
         driver = getBrowserDriver(browserName, url);
         homePage = PageGeneratorManager.getHomePage(driver);
-
+        userData = UserDataTest.getFile(GlobalConstants.PROJECT_LOCATION + "\\testdata\\User\\UserData.json");
+        firstName = userData.getFirstname();
+        lastName = userData.getLastname();
+        email = userData.getEmail() + postFixEmail;
+        password = userData.getPassword();
+        gender = userData.getGender();
     }
 
     @Description("TC01: Register to System")
@@ -93,7 +102,7 @@ public class Login_Page_Pattern_Object extends BaseTest {
         loginPage.inputToTextboxById(driver, "Password", password);
 
         log.info("Login - Step 03: Click to Log in button");
-        loginPage.clickToButtonByValue(driver,"Log in");
+        loginPage.clickToButtonByValue(driver, "Log in");
         homePage = PageGeneratorManager.getHomePage(driver);
 
         log.info("Login - Step 04: Verify My account link is displayed");
@@ -109,7 +118,7 @@ public class Login_Page_Pattern_Object extends BaseTest {
                 driver, "header", "My account");
 
         log.info("Customer - Step 02: Verify Gender checkbox is checked: " + gender);
-        verifyTrue(customerInforPage.isRadioButtonCheckedById(driver,"gender-male"));
+        verifyTrue(customerInforPage.isRadioButtonCheckedById(driver, "gender-male"));
 
         log.info("Customer - Step 03: Verify Fist Name textbox is: " + firstName);
         verifyEquals(customerInforPage.getTextFromTextboxById(driver, "FirstName"), firstName);

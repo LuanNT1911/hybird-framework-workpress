@@ -542,7 +542,7 @@ public class BasePage {
 
     public String getTextFromTextboxById(WebDriver driver, String textboxId) {
         waitForElementVisible(driver, BasePageUI.TEXT_BOX_BY_ID, textboxId);
-        return getElementTextByAttribute(driver, BasePageUI.TEXT_BOX_BY_ID, textboxId);
+        return getElementTextByAttribute(driver, BasePageUI.TEXT_BOX_BY_ID,"value", textboxId);
     }
 
     public boolean isRadioButtonCheckedById(WebDriver driver, String radioButtonId) {
